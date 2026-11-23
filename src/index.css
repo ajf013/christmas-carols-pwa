@@ -67,3 +67,16 @@ body {
 .pb-safe {
   padding-bottom: max(env(safe-area-inset-bottom, 0px), 14px);
 }
+
+/* Suppress Netlify badge and deploy preview drawer */
+[data-netlify-drawer],
+#netlify-badge,
+.netlify-badge,
+[class*="netlify-badge"],
+iframe[src*="netlify"],
+div[id*="netlify-drawer"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
