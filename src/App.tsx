@@ -4,10 +4,20 @@ import { Song, ViewMode } from './types';
 import { Navbar } from './components/Navbar';
 import { SongList } from './components/SongList';
 import { SongViewer } from './components/SongViewer';
+import { SplashScreen } from './components/SplashScreen';
 
 const songs: Song[] = rawSongs as Song[];
 
 export function App() {
+  const [showSplash, setShowSplash] = useState<boolean>(() => {
+    // Show splash once per session
+    try {
+      return !sessionStorage.getItem('carols_splash_shown');
+    } catch {
+      return true;
+    }
+  });
+
   const [selectedSong, setSelectedSong] = useState<Song | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
@@ -41,6 +51,15 @@ export function App() {
       return 'both';
     }
   });
+
+  const handleDismissSplash = useCallback(() => {
+    setShowSplash(false);
+    try {
+      sessionStorage.setItem('carols_splash_shown', 'true');
+    } catch {
+      // Ignore storage errors
+    }
+  }, []);
 
   // PWA Install Prompt Handler
   useEffect(() => {
@@ -77,7 +96,7 @@ export function App() {
       setDeferredPrompt(null);
     } else {
       alert(
-        'To install this Carol Lyrics App on your phone:\n\n📱 iPhone (Safari):\n1. Tap the Share button at the bottom (square with arrow up)\n2. Tap "Add to Home Screen"\n\n🤖 Android (Chrome):\n1. Tap the 3 dots menu\n2. Tap "Install App" or "Add to Home Screen".'
+        'To install on iPhone:\n1. Tap the Share button in Safari (box with arrow)\n2. Tap "Add to Home Screen"\n\nOn Android: Tap the 3 dots in Chrome and select "Install app".'
       );
     }
   };
@@ -131,7 +150,7 @@ export function App() {
     localStorage.setItem('carol_view_mode', mode);
   }, []);
 
-  // Filtered songs (Bilingual instant search + Favorites)
+  // Filtered songs
   const filteredSongs = useMemo(() => {
     const q = searchQuery.toLowerCase().trim();
 
@@ -178,7 +197,9 @@ export function App() {
   }, [currentSongIndex]);
 
   return (
-    <div className="min-h-screen app-bg text-slate-100 flex flex-col font-['Mukta_Malar',system-ui,sans-serif]">
+    <div className="min-h-screen bg-[#0A0D14] text-slate-100 flex flex-col font-['Mukta_Malar',system-ui,sans-serif]">
+      {showSplash && <SplashScreen onDismiss={handleDismissSplash} />}
+
       {selectedSong ? (
         <SongViewer
           song={selectedSong}
