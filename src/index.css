@@ -17,7 +17,7 @@ body {
   user-select: text;
 }
 
-/* Restrained, purposeful page transition (unslop U20) */
+/* Restrained, purposeful page transition (unslop U20 & taste-skill motion) */
 @keyframes slideInRight {
   from {
     opacity: 0;
@@ -30,8 +30,55 @@ body {
 }
 
 .page-enter {
-  animation: slideInRight 180ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: slideInRight 180ms cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
   will-change: transform, opacity;
+}
+
+/* Impeccable & Taste-Skill Typography Polish */
+.text-balance {
+  text-wrap: balance;
+}
+
+.lyrics-pretty {
+  text-wrap: pretty;
+}
+
+.tabular-numbers {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* Taste-Skill Physical Tactile Response */
+.btn-press {
+  transition: transform 90ms cubic-bezier(0.2, 0.8, 0.2, 1), background-color 150ms ease, border-color 150ms ease;
+}
+.btn-press:active {
+  transform: scale(0.985) translateY(1px);
+}
+
+.card-lift {
+  transition: transform 180ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 150ms ease, box-shadow 180ms ease;
+  will-change: transform, box-shadow;
+}
+@media (hover: hover) and (pointer: fine) {
+  .card-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(212, 175, 55, 0.2);
+  }
+}
+.card-lift:active {
+  transform: scale(0.99) translateY(0);
+}
+
+/* Reduced Motion Guard (Impeccable & Taste-Skill) */
+@media (prefers-reduced-motion: reduce) {
+  .page-enter,
+  .btn-press,
+  .card-lift {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
 }
 
 /* Custom scrollbar */
