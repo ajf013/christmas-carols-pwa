@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block aggressive scraper bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+Sitemap: https://carols.fcruz.org/sitemap.xml

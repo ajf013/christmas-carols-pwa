@@ -62,8 +62,8 @@ export const SongCard: React.FC<SongCardProps> = ({
         />
       </button>
 
-      {/* Chevron Indicator with Subtle 3px Nudge */}
-      <ChevronRight className="w-4 h-4 text-slate-500 absolute bottom-4 right-4 group-hover:text-[#E2B867] group-hover:translate-x-0.5 transition-all duration-150" />
+      {/* Chevron Indicator with Subtle 3px Nudge (WCAG AA Contrast) */}
+      <ChevronRight className="w-4 h-4 text-slate-400 absolute bottom-4 right-4 group-hover:text-[#E2B867] group-hover:translate-x-0.5 transition-all duration-150" />
     </div>
   );
 };

@@ -46,7 +46,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             >
               <img
                 src="/mother_of_perpetual_help.jpg"
-                alt="Our Lady of Perpetual Help"
+                alt="Sacred Byzantine icon of Our Lady of Perpetual Help"
                 className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
               />
             </button>

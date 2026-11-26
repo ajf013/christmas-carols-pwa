@@ -38,7 +38,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onDismiss }) => {
         <div className="w-48 h-60 sm:w-56 sm:h-72 rounded-3xl overflow-hidden border border-[#D4AF37]/40 shadow-2xl shadow-black/80 bg-slate-900 flex items-center justify-center transition-transform duration-300">
           <img
             src="/mother_of_perpetual_help.jpg"
-            alt="Our Lady of Perpetual Help"
+            alt="Sacred Byzantine icon of Our Lady of Perpetual Help"
             className="w-full h-full object-cover object-top"
           />
         </div>

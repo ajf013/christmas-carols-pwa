@@ -7,13 +7,21 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'apple-touch-icon.png', 'icons/*.png'],
+      includeAssets: [
+        'favicon.svg',
+        'apple-touch-icon.png',
+        'og-image.jpg',
+        'mother_of_perpetual_help.jpg',
+        'robots.txt',
+        'sitemap.xml',
+        'icons/*.png',
+      ],
       manifest: {
         name: 'Christmas Carols Lyrics',
         short_name: 'Carol Lyrics',
         description: 'Offline Christmas Carol Lyrics Book with Tamil & English Transliteration',
-        theme_color: '#0B0F19',
-        background_color: '#0B0F19',
+        theme_color: '#0A0D14',
+        background_color: '#0A0D14',
         display: 'standalone',
         orientation: 'portrait',
         icons: [
@@ -36,7 +44,8 @@ export default defineConfig({
         ]
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,json}']
+        globPatterns: ['**/*.{js,css,html,ico,png,jpg,svg,json}'],
+        navigateFallback: '/index.html'
       }
     })
   ]

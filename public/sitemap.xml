@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://carols.fcruz.org/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://carols.fcruz.org/privacy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://carols.fcruz.org/terms</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url><loc>https://carols.fcruz.org/song/1</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/2</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/3</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/4</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/5</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/6</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/7</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/8</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/9</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/10</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/11</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/12</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/13</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/14</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/15</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/16</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/17</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/18</loc><priority>0.8</priority></url>
+  <url><loc>https://carols.fcruz.org/song/19</loc><priority>0.8</priority></url>
+</urlset>
