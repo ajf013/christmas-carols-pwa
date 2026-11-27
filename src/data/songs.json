@@ -3290,5 +3290,208 @@
         ]
       }
     ]
+  },
+  {
+    "id": 20,
+    "titleTamil": "ஆசையொரு ஆசை",
+    "titleEnglish": "Aasaiyoru Aasai",
+    "category": "Joy / மகிழ்ச்சி",
+    "preview": "ஆசையொரு ஆசை அள்ளி கொஞ்ச ஆசை பாலன் இயேசு அவரை...",
+    "sections": [
+      {
+        "type": "chorus",
+        "label": "பல்லவி (Chorus)",
+        "lines": [
+          {
+            "tamil": "ஆசையொரு ஆசை அள்ளி கொஞ்ச ஆசை",
+            "english": "Aasaiyoru aasai alli konja aasai",
+            "repeat": 2
+          },
+          {
+            "tamil": "பாலன் இயேசு அவரை அள்ளி கொஞ்ச ஆசை",
+            "english": "Baalan Yesu avarai alli konja aasai",
+            "repeat": 2
+          },
+          {
+            "tamil": "அன்னை மரி அன்பின் மடி குழந்தை இயேசு சிரிக்கின்றார்",
+            "english": "Annai Mari anbin madi kuzhandhai Yesu sirikkindraar",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூமியிலே தேவ ஒளி புதுமைகளால் நிறைக்கிறார்",
+            "english": "Bhoomiyile Deva oli pudhumaigalaal niraikkiraar",
+            "repeat": 1
+          },
+          {
+            "tamil": "பட்டு விரல் பத்து விரல் அற்புதங்கள் நிகழ்த்துவார்",
+            "english": "Pattu viral patthu viral arpudhangal nigazhthuvaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "மொட்டு விழி பார்வையிலே பாவங்களை துரத்துவார்",
+            "english": "Mottu vizhi paarvaiyile paavangalai thuraththuvaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "Happy Happy Happy Christmas to you all",
+            "english": "Happy Happy Happy Christmas to you all",
+            "repeat": 1
+          },
+          {
+            "tamil": "Merry Merry Merry Christmas I love you all",
+            "english": "Merry Merry Merry Christmas I love you all",
+            "repeat": 1
+          },
+          {
+            "tamil": "குழந்தை இயேசுவை வாழ்த்தி பாடுங்கள்",
+            "english": "Kuzhandhai Yesuvai vaazhththi paadungal",
+            "repeat": 1
+          },
+          {
+            "tamil": "மழலை இயேசுவை மகிழ்ந்து பாடுங்கள்",
+            "english": "Mazhalai Yesuvai magizhndhu paadungal",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 1 (Verse 1)",
+        "lines": [
+          {
+            "tamil": "இறையின் குலமே எழுந்து வா வா",
+            "english": "Iraiyin kulame ezhundhu vaa vaa",
+            "repeat": 1
+          },
+          {
+            "tamil": "நமது இறைவன் பிறந்தார் ஓடிவா வா",
+            "english": "Namadhu Iraivan pirandhaar odivaa vaa",
+            "repeat": 1
+          },
+          {
+            "tamil": "இன்று ஆடி பாடி ஆட்டம் போடு",
+            "english": "Indru aadi paadi aattam podu",
+            "repeat": 1
+          },
+          {
+            "tamil": "அவரின் வருகை நாளை துதித்து பாடு",
+            "english": "Avarin varugai naalai thudhiththu paadu",
+            "repeat": 1
+          },
+          {
+            "tamil": "உலகின் ஒளியானவர் நமது வழியானவர்",
+            "english": "Ulagin oliyaanavar namadhu vazhiyaanavar",
+            "repeat": 1
+          },
+          {
+            "tamil": "மரியின் மகனாக பிறந்தாரே அல்லேலூயா",
+            "english": "Mariyin maganaaga pirandhaare Hallelujah",
+            "repeat": 1
+          },
+          {
+            "tamil": "கொடிய பாவங்களை கொள்ளை வியாதிகளை",
+            "english": "Kodiya paavangalai kollai viyaadhigalai",
+            "repeat": 1
+          },
+          {
+            "tamil": "துரத்தி அடித்திட பிறந்தாரே அல்லேலூயா",
+            "english": "Thuraththi adiththida pirandhaare Hallelujah",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஒன்றாய் கூடிடுவோம் உள்ளம் மகிழ்ந்திடுவோம்",
+            "english": "Ondraai koodiduvom ullam magizhndhiduvom",
+            "repeat": 2
+          },
+          {
+            "tamil": "நன்றாய் பாடிடுவோம் நன்றி சொல்லிடுவோம்",
+            "english": "Nandraai paadiduvom nandri solliduvom",
+            "repeat": 2
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 2 (Verse 2)",
+        "lines": [
+          {
+            "tamil": "கிறிஸ்துமஸ் தாத்தா நானும் வந்தேன்",
+            "english": "Christmas Thaaththaa naanum vandhen",
+            "repeat": 1
+          },
+          {
+            "tamil": "பரிசு நிறைய நெறய கொண்டு வந்தேன்",
+            "english": "Parisu niraiya neraiya kondu vandhen",
+            "repeat": 1
+          },
+          {
+            "tamil": "வாங்க உங்க பரிசை வாங்கி போங்க",
+            "english": "Vaanga unga parisai vaangi ponga",
+            "repeat": 1
+          },
+          {
+            "tamil": "நமது பாலன் பிறப்பே பரிசு தாங்க",
+            "english": "Namadhu Baalan pirappe parisu thaanga",
+            "repeat": 1
+          },
+          {
+            "tamil": "அன்பை அள்ளித் தருவார் கண்ணின் மணியாய் காப்பார்",
+            "english": "Anbai alliththaruvaar kannin maniyaai kaappaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "நமது பாவங்கள் நீக்கியே ஆசீர்வதிப்பார்",
+            "english": "Namadhu paavangal neekkiye aaseervadhippaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஜீவ நதியானவர் ஆன்ம ஒளியானவர்",
+            "english": "Jeeva nadhiyaanavar aanma oliyaanavar",
+            "repeat": 1
+          },
+          {
+            "tamil": "மோட்ச உலகத்தில் நம் வீட்டை கட்டி வைப்பார்",
+            "english": "Motcha ulagaththil nam veettai katti vaippaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "அல்லே அல்லேலூயா அன்பின் ஆனவரே",
+            "english": "Alle Hallelujah anbin aanavare",
+            "repeat": 1
+          },
+          {
+            "tamil": "அல்லே அல்லேலூயா தூய அற்புதரே",
+            "english": "Alle Hallelujah thooya arpudhare",
+            "repeat": 1
+          },
+          {
+            "tamil": "அல்லே அல்லேலூயா சொல்லி கை தட்டுவோம்",
+            "english": "Alle Hallelujah solli kai thattuvom",
+            "repeat": 1
+          },
+          {
+            "tamil": "அல்லே அல்லேலூயா கூடி ஆடிடுவோம்",
+            "english": "Alle Hallelujah koodi aadiduvom",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "label": "முடிவு (Outro)",
+        "lines": [
+          {
+            "tamil": "Happy Happy Happy Christmas to you all",
+            "english": "Happy Happy Happy Christmas to you all",
+            "repeat": 2
+          },
+          {
+            "tamil": "Merry Merry Merry Christmas I love you all",
+            "english": "Merry Merry Merry Christmas I love you all",
+            "repeat": 2
+          }
+        ]
+      }
+    ]
   }
 ]
