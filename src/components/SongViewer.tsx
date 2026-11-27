@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import {
   ArrowLeft,
   Star,
@@ -6,8 +6,7 @@ import {
   Pause,
   ChevronLeft,
   ChevronRight,
-  ZoomIn,
-  ZoomOut,
+  Sparkles,
 } from 'lucide-react';
 import { Song, ViewMode } from '../types';
 import { useAutoScroll } from '../hooks/useAutoScroll';
@@ -38,15 +37,61 @@ export const SongViewer: React.FC<SongViewerProps> = ({
   onChangeViewMode,
 }) => {
   const { isScrolling, speed, setSpeed, toggleScrolling, stopScrolling } = useAutoScroll();
+  const [spotlightEnabled, setSpotlightEnabled] = useState(true);
+  const [activeSectionIdx, setActiveSectionIdx] = useState(0);
+  const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
 
-  // Reset scroll and stop auto-scroll when switching songs
+  // Reset scroll, spotlight, and stop auto-scroll when switching songs
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
     stopScrolling();
+    setActiveSectionIdx(0);
   }, [song.id, stopScrolling]);
 
-  // Impeccable Typography: Proportional leading calculation
-  // Tightens leading at large sizes (1.45 at 30px) and relaxes at small sizes (1.85 at 14px)
+  // Track which verse/chorus is centered in the reading viewport
+  useEffect(() => {
+    if (!spotlightEnabled) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            const idx = Number(entry.target.getAttribute('data-section-idx'));
+            if (!Number.isNaN(idx)) {
+              setActiveSectionIdx(idx);
+            }
+          }
+        }
+      },
+      {
+        rootMargin: '-35% 0px -45% 0px',
+        threshold: 0.1,
+      }
+    );
+
+    sectionRefs.current.forEach((el) => {
+      if (el) observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, [song.id, song.sections.length, spotlightEnabled]);
+
+  const focusSection = useCallback((idx: number) => {
+    const clamped = Math.max(0, Math.min(song.sections.length - 1, idx));
+    setActiveSectionIdx(clamped);
+    sectionRefs.current[clamped]?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'center',
+    });
+  }, [song.sections.length]);
+
+  const cycleSpeed = useCallback(() => {
+    const speeds = [0.7, 1.0, 1.5];
+    const nextIdx = (speeds.indexOf(speed) + 1) % speeds.length;
+    setSpeed(speeds[nextIdx]);
+  }, [speed, setSpeed]);
+
+  // Dynamic Proportional Leading Formula
   const dynamicLineHeight = useMemo(() => {
     const minSize = 14;
     const maxSize = 30;
@@ -55,7 +100,7 @@ export const SongViewer: React.FC<SongViewerProps> = ({
     return Number((1.85 - ratio * 0.4).toFixed(2));
   }, [fontSize]);
 
-  // Impeccable Hardening: Global keyboard shortcuts for choir leaders & keyboard devices
+  // Global keyboard shortcuts
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
@@ -68,6 +113,12 @@ export const SongViewer: React.FC<SongViewerProps> = ({
       } else if (e.key === 'ArrowLeft' || e.key === 'k') {
         e.preventDefault();
         onPrevSong?.();
+      } else if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        focusSection(activeSectionIdx + 1);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        focusSection(activeSectionIdx - 1);
       } else if (e.key === ' ' || e.code === 'Space') {
         e.preventDefault();
         toggleScrolling();
@@ -90,24 +141,34 @@ export const SongViewer: React.FC<SongViewerProps> = ({
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [onNextSong, onPrevSong, toggleScrolling, onBack, onChangeFontSize, onChangeViewMode, viewMode]);
+  }, [
+    onNextSong,
+    onPrevSong,
+    focusSection,
+    activeSectionIdx,
+    toggleScrolling,
+    onBack,
+    onChangeFontSize,
+    onChangeViewMode,
+    viewMode,
+  ]);
 
   return (
-    <div className="min-h-screen bg-[#0A0D14] text-slate-100 flex flex-col pb-44 page-enter">
-      {/* Impeccable Accessibility: Screen reader live region */}
+    <div className="min-h-screen bg-[#07090F] candlelight-glow text-slate-100 flex flex-col pb-32 page-enter">
+      {/* Screen reader live region */}
       <div className="sr-only" aria-live="polite" aria-atomic="true">
         {`Carol ${song.id}: ${song.titleTamil}, ${song.titleEnglish}. ${
           isScrolling ? `Auto scrolling at ${speed}x` : 'Auto scroll paused'
         }. Text size ${fontSize} pixels.`}
       </div>
 
-      {/* Streamlined Single-Row Sticky Header (Maximizes reading viewport) */}
+      {/* Streamlined Obsidian Header with Warm Candlelight Backdrop */}
       <header className="sticky top-0 z-30 glass-nav pt-safe backdrop-blur-md">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-2.5 flex items-center justify-between gap-3">
-          {/* Back button (44x44px minimum hit area) */}
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 py-2.5 flex items-center justify-between gap-2">
           <button
+            type="button"
             onClick={onBack}
-            className="flex items-center gap-1.5 h-10 px-3 rounded-xl bg-slate-800 text-xs font-medium text-slate-200 hover:bg-slate-700 border border-slate-700/60 btn-press shrink-0"
+            className="flex items-center gap-1.5 h-10 px-3 rounded-xl bg-[#0E131F] text-xs font-medium text-slate-200 hover:bg-slate-800 border border-slate-700/60 btn-press shrink-0"
             title="Back to song list (Esc)"
             aria-label="Back to song list"
           >
@@ -115,8 +176,7 @@ export const SongViewer: React.FC<SongViewerProps> = ({
             <span className="font-sans hidden xs:inline">Carols</span>
           </button>
 
-          {/* Song Title & English Subtitle with text-balance */}
-          <div className="flex-1 text-center min-w-0 px-2">
+          <div className="flex-1 text-center min-w-0 px-1">
             <h2 className="text-sm sm:text-base font-semibold text-white tracking-wide truncate text-balance tabular-numbers">
               #{song.id}. {song.titleTamil}
             </h2>
@@ -125,41 +185,71 @@ export const SongViewer: React.FC<SongViewerProps> = ({
             </p>
           </div>
 
-          {/* Favorite Star Button (44x44px minimum hit area) */}
-          <button
-            onClick={() => onToggleFavorite(song.id)}
-            className="w-10 h-10 rounded-xl bg-slate-800 border border-slate-700/60 flex items-center justify-center text-slate-400 hover:text-[#E2B867] btn-press shrink-0"
-            title={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
-            aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
-          >
-            <Star
-              className={`w-4 h-4 transition-transform duration-150 ${
-                isFavorite ? 'fill-[#E2B867] text-[#E2B867]' : ''
+          <div className="flex items-center gap-1.5 shrink-0">
+            {/* Spotlight Toggle */}
+            <button
+              type="button"
+              onClick={() => setSpotlightEnabled((prev) => !prev)}
+              className={`w-10 h-10 rounded-xl border flex items-center justify-center btn-press transition-colors duration-150 ${
+                spotlightEnabled
+                  ? 'bg-[#D4AF37]/15 border-[#D4AF37]/50 text-[#E2B867]'
+                  : 'bg-[#0E131F] border-slate-700/60 text-slate-400 hover:text-slate-200'
               }`}
-            />
-          </button>
+              title={spotlightEnabled ? 'Active Verse Spotlight: On' : 'Active Verse Spotlight: Off'}
+              aria-label="Toggle active verse spotlight"
+              aria-pressed={spotlightEnabled}
+            >
+              <Sparkles className="w-4 h-4" />
+            </button>
+
+            {/* Favorite Star Button */}
+            <button
+              type="button"
+              onClick={() => onToggleFavorite(song.id)}
+              className="w-10 h-10 rounded-xl bg-[#0E131F] border border-slate-700/60 flex items-center justify-center text-slate-400 hover:text-[#E2B867] btn-press"
+              title={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
+              aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
+            >
+              <Star
+                className={`w-4 h-4 transition-transform duration-150 ${
+                  isFavorite ? 'fill-[#E2B867] text-[#E2B867]' : ''
+                }`}
+              />
+            </button>
+          </div>
         </div>
       </header>
 
-      {/* Main Lyrics Body (Calm Read Column) */}
+      {/* Main Lyrics Body with Option B Active Verse Spotlight */}
       <main className="max-w-3xl mx-auto w-full px-4 sm:px-6 pt-5 flex-1">
         <div className="space-y-4">
           {song.sections.map((section, sIdx) => {
             const isChorus = section.type === 'chorus';
+            const isFocused = !spotlightEnabled || activeSectionIdx === sIdx;
+
             return (
               <div
                 key={sIdx}
-                className={`p-4 sm:p-6 rounded-2xl transition-colors duration-150 ${
-                  isChorus
-                    ? 'bg-[#D4AF37]/5 border border-[#D4AF37]/25 shadow-[0_4px_20px_rgba(212,175,55,0.04)]'
-                    : 'glass-panel'
+                ref={(el) => {
+                  sectionRefs.current[sIdx] = el;
+                }}
+                data-section-idx={sIdx}
+                onClick={() => spotlightEnabled && focusSection(sIdx)}
+                className={`p-4 sm:p-6 rounded-2xl transition-all duration-300 ${
+                  spotlightEnabled ? 'cursor-pointer' : ''
+                } ${
+                  isFocused
+                    ? isChorus || spotlightEnabled
+                      ? 'spotlight-active opacity-100'
+                      : 'glass-panel opacity-100'
+                    : 'glass-panel opacity-45 hover:opacity-85'
                 }`}
               >
                 {/* Section Header Label */}
-                <div className="flex items-center justify-between mb-3.5 pb-2 border-b border-slate-800 font-sans">
+                <div className="flex items-center justify-between mb-3.5 pb-2 border-b border-slate-800/80 font-sans">
                   <span
                     className={`text-xs font-semibold uppercase tracking-wider ${
-                      isChorus ? 'text-[#E2B867]' : 'text-slate-400'
+                      isFocused || isChorus ? 'text-[#E2B867]' : 'text-slate-300'
                     }`}
                   >
                     {section.label}
@@ -171,7 +261,7 @@ export const SongViewer: React.FC<SongViewerProps> = ({
                   )}
                 </div>
 
-                {/* Lyrics Lines with Proportional Leading & Pretty Wrapping */}
+                {/* Lyrics Lines */}
                 <div
                   className="space-y-3.5 lyrics-pretty"
                   style={{
@@ -181,11 +271,10 @@ export const SongViewer: React.FC<SongViewerProps> = ({
                 >
                   {section.lines.map((line, lIdx) => (
                     <div key={lIdx} className="space-y-1">
-                      {/* Tamil Line */}
                       {(viewMode === 'tamil' || viewMode === 'both') && (
                         <p
                           className={`font-semibold tracking-wide ${
-                            isChorus ? 'text-white' : 'text-slate-100'
+                            isFocused ? 'text-white' : 'text-slate-200'
                           }`}
                         >
                           {line.tamil}
@@ -197,13 +286,12 @@ export const SongViewer: React.FC<SongViewerProps> = ({
                         </p>
                       )}
 
-                      {/* English Transliteration Line */}
                       {(viewMode === 'english' || viewMode === 'both') && (
                         <p
                           className={`font-sans tracking-wide ${
                             viewMode === 'both'
                               ? 'text-[#E2B867] text-[0.88em] font-medium'
-                              : isChorus
+                              : isFocused
                               ? 'text-white font-semibold'
                               : 'text-slate-200'
                           }`}
@@ -225,120 +313,106 @@ export const SongViewer: React.FC<SongViewerProps> = ({
         </div>
       </main>
 
-      {/* Ergonomic Floating Bottom Dock (Thumb-Zone Optimization) */}
-      <footer className="fixed bottom-0 left-0 right-0 z-30 glass-nav pb-safe backdrop-blur-lg border-t border-slate-800/80 shadow-[0_-8px_30px_rgba(0,0,0,0.6)]">
-        <div className="max-w-3xl mx-auto px-3 sm:px-6 py-2 space-y-2">
-          {/* Row 1: Mode Selector & Text Resizing within Thumb Reach */}
-          <div className="flex items-center justify-between gap-2 text-xs font-sans">
-            {/* View Mode Selector: தமிழ் | English | Both */}
-            <div className="flex bg-slate-900/90 rounded-xl p-1 border border-slate-800 shadow-inner">
-              {(['tamil', 'english', 'both'] as ViewMode[]).map((mode) => (
-                <button
-                  key={mode}
-                  onClick={() => onChangeViewMode(mode)}
-                  className={`px-3 py-1.5 rounded-lg text-xs font-semibold capitalize transition-all duration-150 btn-press ${
-                    viewMode === mode
-                      ? 'bg-[#D4AF37] text-slate-950 shadow-sm'
-                      : 'text-slate-400 hover:text-slate-200'
-                  }`}
-                  aria-pressed={viewMode === mode}
-                >
-                  {mode === 'tamil' ? 'தமிழ்' : mode === 'english' ? 'English' : 'Both'}
-                </button>
-              ))}
-            </div>
+      {/* Option B: Sleek Floating Pill Dock */}
+      <footer className="fixed bottom-3 sm:bottom-5 left-0 right-0 z-30 px-3 sm:px-6 pointer-events-none pb-[env(safe-area-inset-bottom,0px)]">
+        <div className="max-w-xl mx-auto pointer-events-auto rounded-2xl bg-[#0E131F]/92 backdrop-blur-xl border border-[#D4AF37]/30 shadow-[0_12px_40px_rgba(0,0,0,0.85)] px-2 sm:px-3 py-2 flex items-center justify-between gap-1.5 sm:gap-2 font-sans">
+          {/* Previous Carol */}
+          <button
+            type="button"
+            onClick={onPrevSong}
+            disabled={!onPrevSong}
+            className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 border border-slate-800 disabled:opacity-25 disabled:pointer-events-none btn-press shrink-0"
+            title="Previous Carol (Left Arrow)"
+            aria-label="Previous Carol"
+          >
+            <ChevronLeft className="w-4 h-4 text-[#E2B867]" />
+          </button>
 
-            {/* Font Resizing Controls with Tabular Display */}
-            <div className="flex items-center space-x-1 bg-slate-900/90 rounded-xl p-1 border border-slate-800 shadow-inner">
+          {/* Language Toggle Pill: TA | EN | Both */}
+          <div className="flex bg-slate-950/90 rounded-xl p-0.5 border border-slate-800 shrink-0">
+            {(['tamil', 'english', 'both'] as ViewMode[]).map((mode) => (
               <button
-                onClick={() => onChangeFontSize(-1)}
-                disabled={fontSize <= 14}
-                className="w-8 h-7 flex items-center justify-center rounded-md text-slate-300 hover:bg-slate-800 disabled:opacity-30 disabled:pointer-events-none transition-colors duration-150 btn-press"
-                title="Decrease font size (-)"
-                aria-label="Decrease font size"
-              >
-                <ZoomOut className="w-3.5 h-3.5" />
-              </button>
-              <span className="text-[11px] font-bold text-[#E2B867] px-1 min-w-[34px] text-center font-sans tabular-numbers">
-                {fontSize}px
-              </span>
-              <button
-                onClick={() => onChangeFontSize(1)}
-                disabled={fontSize >= 30}
-                className="w-8 h-7 flex items-center justify-center rounded-md text-slate-300 hover:bg-slate-800 disabled:opacity-30 disabled:pointer-events-none transition-colors duration-150 btn-press"
-                title="Increase font size (+)"
-                aria-label="Increase font size"
-              >
-                <ZoomIn className="w-3.5 h-3.5" />
-              </button>
-            </div>
-          </div>
-
-          {/* Row 2: Navigation & Auto-Scroll Controller */}
-          <div className="flex items-center justify-between gap-2 pt-0.5">
-            {/* Previous Carol Button */}
-            <button
-              onClick={onPrevSong}
-              disabled={!onPrevSong}
-              className="flex items-center justify-center gap-1 h-10 px-3.5 rounded-xl bg-slate-800 hover:bg-slate-750 text-xs font-medium text-slate-200 border border-slate-700/50 disabled:opacity-20 disabled:pointer-events-none btn-press shrink-0"
-              title="Previous Carol (Left Arrow or K)"
-              aria-label="Previous Carol"
-            >
-              <ChevronLeft className="w-4 h-4 text-[#E2B867]" />
-              <span className="hidden sm:inline font-sans">Prev</span>
-            </button>
-
-            {/* Auto-Scroll Controller */}
-            <div className="flex items-center gap-1.5 sm:gap-2 bg-slate-900/95 px-2.5 sm:px-3 py-1 rounded-xl border border-slate-800 shadow-inner">
-              <button
-                onClick={toggleScrolling}
-                className={`flex items-center gap-1.5 h-8 px-3 rounded-lg text-xs font-semibold transition-all duration-150 btn-press ${
-                  isScrolling
+                key={mode}
+                type="button"
+                onClick={() => onChangeViewMode(mode)}
+                className={`px-2 sm:px-2.5 h-8 rounded-lg text-[11px] sm:text-xs font-semibold transition-all duration-150 btn-press ${
+                  viewMode === mode
                     ? 'bg-[#D4AF37] text-slate-950 shadow-sm'
-                    : 'bg-slate-800 text-[#E2B867] hover:bg-slate-700'
+                    : 'text-slate-300 hover:text-white'
                 }`}
-                title="Toggle Auto-Scroll (Spacebar)"
-                aria-pressed={isScrolling}
+                aria-pressed={viewMode === mode}
               >
-                {isScrolling ? (
-                  <Pause className="w-3.5 h-3.5 fill-current" />
-                ) : (
-                  <Play className="w-3.5 h-3.5 fill-current" />
-                )}
-                <span className="font-sans">{isScrolling ? 'Pause' : 'Scroll'}</span>
+                {mode === 'tamil' ? 'TA' : mode === 'english' ? 'EN' : 'Both'}
               </button>
+            ))}
+          </div>
 
-              {/* Speed Options with Tabular Display */}
-              <div className="flex items-center text-[11px] font-sans space-x-0.5 tabular-numbers">
-                {[0.7, 1.0, 1.5].map((s) => (
-                  <button
-                    key={s}
-                    onClick={() => setSpeed(s)}
-                    className={`px-1.5 py-1 rounded font-medium transition-colors duration-150 btn-press ${
-                      speed === s
-                        ? 'bg-[#D4AF37]/20 text-[#E2B867] font-semibold'
-                        : 'text-slate-400 hover:text-slate-200'
-                    }`}
-                    aria-label={`Scroll speed ${s}x`}
-                  >
-                    {s}x
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Next Carol Button */}
+          {/* Font Resize Pill: A- | A+ */}
+          <div className="flex items-center bg-slate-950/90 rounded-xl p-0.5 border border-slate-800 shrink-0">
             <button
-              onClick={onNextSong}
-              disabled={!onNextSong}
-              className="flex items-center justify-center gap-1 h-10 px-3.5 rounded-xl bg-slate-800 hover:bg-slate-750 text-xs font-medium text-slate-200 border border-slate-700/50 disabled:opacity-20 disabled:pointer-events-none btn-press shrink-0"
-              title="Next Carol (Right Arrow or J)"
-              aria-label="Next Carol"
+              type="button"
+              onClick={() => onChangeFontSize(-1)}
+              disabled={fontSize <= 14}
+              className="w-8 h-8 flex items-center justify-center rounded-lg text-xs font-semibold text-slate-200 hover:bg-slate-800 disabled:opacity-30 disabled:pointer-events-none btn-press"
+              title="Decrease text size (-)"
+              aria-label="Decrease text size"
             >
-              <span className="hidden sm:inline font-sans">Next</span>
-              <ChevronRight className="w-4 h-4 text-[#E2B867]" />
+              A-
+            </button>
+            <button
+              type="button"
+              onClick={() => onChangeFontSize(1)}
+              disabled={fontSize >= 30}
+              className="w-8 h-8 flex items-center justify-center rounded-lg text-xs font-semibold text-[#E2B867] hover:bg-slate-800 disabled:opacity-30 disabled:pointer-events-none btn-press"
+              title="Increase text size (+)"
+              aria-label="Increase text size"
+            >
+              A+
             </button>
           </div>
+
+          {/* Auto-Scroll Play/Pause + Speed Tap */}
+          <div className="flex items-center bg-slate-950/90 rounded-xl p-0.5 border border-slate-800 shrink-0">
+            <button
+              type="button"
+              onClick={toggleScrolling}
+              className={`flex items-center gap-1 h-8 px-2.5 rounded-lg text-[11px] sm:text-xs font-semibold transition-all duration-150 btn-press ${
+                isScrolling
+                  ? 'bg-[#D4AF37] text-slate-950'
+                  : 'text-[#E2B867] hover:bg-slate-800'
+              }`}
+              title="Toggle Auto-Scroll (Spacebar)"
+              aria-pressed={isScrolling}
+            >
+              {isScrolling ? (
+                <Pause className="w-3.5 h-3.5 fill-current" />
+              ) : (
+                <Play className="w-3.5 h-3.5 fill-current" />
+              )}
+              <span className="hidden xs:inline">{isScrolling ? 'Pause' : 'Auto'}</span>
+            </button>
+            <button
+              type="button"
+              onClick={cycleSpeed}
+              className="px-1.5 h-8 rounded-lg text-[11px] font-semibold text-slate-300 hover:text-[#E2B867] tabular-numbers btn-press"
+              title="Cycle auto-scroll speed"
+              aria-label={`Auto-scroll speed ${speed}x, tap to change`}
+            >
+              {speed}x
+            </button>
+          </div>
+
+          {/* Next Carol */}
+          <button
+            type="button"
+            onClick={onNextSong}
+            disabled={!onNextSong}
+            className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 border border-slate-800 disabled:opacity-25 disabled:pointer-events-none btn-press shrink-0"
+            title="Next Carol (Right Arrow)"
+            aria-label="Next Carol"
+          >
+            <ChevronRight className="w-4 h-4 text-[#E2B867]" />
+          </button>
         </div>
       </footer>
     </div>

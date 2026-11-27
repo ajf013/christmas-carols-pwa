@@ -105,6 +105,20 @@ export function App() {
     }
   });
 
+  const [lastSongId, setLastSongId] = useState<number | null>(() => {
+    try {
+      const saved = localStorage.getItem('carol_last_song_id');
+      return saved ? Number(saved) : null;
+    } catch {
+      return null;
+    }
+  });
+
+  const lastSong = useMemo(
+    () => (lastSongId ? songs.find((s) => s.id === lastSongId) || null : null),
+    [lastSongId]
+  );
+
   const handleDismissSplash = useCallback(() => {
     setShowSplash(false);
     try {
@@ -207,6 +221,12 @@ export function App() {
 
   const handleSelectSong = useCallback(
     (song: Song) => {
+      setLastSongId(song.id);
+      try {
+        localStorage.setItem('carol_last_song_id', String(song.id));
+      } catch {
+        // Ignore storage errors
+      }
       navigateTo(`/song/${song.id}`, { view: 'song', song });
     },
     [navigateTo]
@@ -312,7 +332,7 @@ export function App() {
   }, [currentSongIndex, handleSelectSong]);
 
   return (
-    <div className="min-h-screen bg-[#0A0D14] text-slate-100 flex flex-col font-['Mukta_Malar',system-ui,sans-serif]">
+    <div className="min-h-screen bg-[#07090F] candlelight-glow text-slate-100 flex flex-col font-['Mukta_Malar',system-ui,sans-serif]">
       {showSplash && <SplashScreen onDismiss={handleDismissSplash} />}
 
       {route.view === 'song' && (
@@ -348,6 +368,8 @@ export function App() {
           {route.view === 'home' && (
             <SongList
               songs={filteredSongs}
+              allSongs={songs}
+              lastSong={lastSong}
               searchQuery={searchQuery}
               onSearchChange={setSearchQuery}
               favorites={favorites}
