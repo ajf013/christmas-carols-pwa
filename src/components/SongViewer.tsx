@@ -252,7 +252,9 @@ export const SongViewer: React.FC<SongViewerProps> = ({
                       isFocused || isChorus ? 'text-[#E2B867]' : 'text-slate-300'
                     }`}
                   >
-                    {section.label}
+                    {viewMode === 'english'
+                      ? (section.label.match(/\(([^)]+)\)/)?.[1] || section.label)
+                      : section.label}
                   </span>
                   {isChorus && (
                     <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full bg-[#D4AF37]/15 text-[#E2B867] border border-[#D4AF37]/30">
@@ -335,7 +337,7 @@ export const SongViewer: React.FC<SongViewerProps> = ({
                 key={mode}
                 type="button"
                 onClick={() => onChangeViewMode(mode)}
-                className={`px-2 sm:px-2.5 h-8 rounded-lg text-[11px] sm:text-xs font-semibold transition-all duration-150 btn-press ${
+                className={`min-w-[34px] px-2 sm:px-2.5 h-9 rounded-lg text-[11px] sm:text-xs font-semibold transition-all duration-150 btn-press ${
                   viewMode === mode
                     ? 'bg-[#D4AF37] text-slate-950 shadow-sm'
                     : 'text-slate-300 hover:text-white'
@@ -353,7 +355,7 @@ export const SongViewer: React.FC<SongViewerProps> = ({
               type="button"
               onClick={() => onChangeFontSize(-1)}
               disabled={fontSize <= 14}
-              className="w-8 h-8 flex items-center justify-center rounded-lg text-xs font-semibold text-slate-200 hover:bg-slate-800 disabled:opacity-30 disabled:pointer-events-none btn-press"
+              className="w-9 h-9 flex items-center justify-center rounded-lg text-xs font-semibold text-slate-200 hover:bg-slate-800 disabled:opacity-30 disabled:pointer-events-none btn-press"
               title="Decrease text size (-)"
               aria-label="Decrease text size"
             >
@@ -363,7 +365,7 @@ export const SongViewer: React.FC<SongViewerProps> = ({
               type="button"
               onClick={() => onChangeFontSize(1)}
               disabled={fontSize >= 30}
-              className="w-8 h-8 flex items-center justify-center rounded-lg text-xs font-semibold text-[#E2B867] hover:bg-slate-800 disabled:opacity-30 disabled:pointer-events-none btn-press"
+              className="w-9 h-9 flex items-center justify-center rounded-lg text-xs font-semibold text-[#E2B867] hover:bg-slate-800 disabled:opacity-30 disabled:pointer-events-none btn-press"
               title="Increase text size (+)"
               aria-label="Increase text size"
             >
@@ -376,7 +378,7 @@ export const SongViewer: React.FC<SongViewerProps> = ({
             <button
               type="button"
               onClick={toggleScrolling}
-              className={`flex items-center gap-1 h-8 px-2.5 rounded-lg text-[11px] sm:text-xs font-semibold transition-all duration-150 btn-press ${
+              className={`flex items-center justify-center gap-1 min-w-[36px] h-9 px-2.5 rounded-lg text-[11px] sm:text-xs font-semibold transition-all duration-150 btn-press ${
                 isScrolling
                   ? 'bg-[#D4AF37] text-slate-950'
                   : 'text-[#E2B867] hover:bg-slate-800'
@@ -394,7 +396,7 @@ export const SongViewer: React.FC<SongViewerProps> = ({
             <button
               type="button"
               onClick={cycleSpeed}
-              className="px-1.5 h-8 rounded-lg text-[11px] font-semibold text-slate-300 hover:text-[#E2B867] tabular-numbers btn-press"
+              className="min-w-[34px] px-1.5 h-9 rounded-lg text-[11px] font-semibold text-slate-300 hover:text-[#E2B867] tabular-numbers btn-press"
               title="Cycle auto-scroll speed"
               aria-label={`Auto-scroll speed ${speed}x, tap to change`}
             >

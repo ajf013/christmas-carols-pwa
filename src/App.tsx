@@ -397,7 +397,7 @@ export function App() {
       )}
 
       <CookieConsent
-        isOpen={showConsent}
+        isOpen={showConsent && route.view !== 'song'}
         onAcceptAll={handleAcceptAllConsent}
         onEssentialOnly={handleEssentialOnlyConsent}
         onOpenPrivacy={() => {
