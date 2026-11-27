@@ -1,452 +1,6 @@
 [
   {
     "id": 1,
-    "titleTamil": "ஆரிராரிரோ என் கண்ணே நீ தூங்கு",
-    "titleEnglish": "Aarirariro En Kanne Nee Thoongu",
-    "category": "Lullaby / தாலாட்டு",
-    "preview": "ஆரிராரிரோ என் கண்ணே நீ தூங்கு - ஆரிராரிரோ என் கண்ணே நீ தூங்கு - என்",
-    "sections": [
-      {
-        "type": "chorus",
-        "label": "பல்லவி (Chorus)",
-        "lines": [
-          {
-            "tamil": "ஆரிராரிரோ என் கண்ணே நீ தூங்கு",
-            "english": "Aarirariro en kanne nee thoongu",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆரிராரிரோ என் கண்ணே நீ தூங்கு - என்",
-            "english": "Aarirariro en kanne nee thoongu - என்",
-            "repeat": 1
-          },
-          {
-            "tamil": "அன்பே ஆரமுதே கண் மணியே நீ தூங்கு",
-            "english": "Anbe aaramuthe kan maniye nee thoongu",
-            "repeat": 2
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 1 (Verse 1)",
-        "lines": [
-          {
-            "tamil": "அழியாத ஆன்மாவின் விருந்தாகவே என்னில் எழுந்தே நீ வா - உன் ஆன்மீக ராகங்கள் உயிர் வாழவே என்னில்  இசை பாடவா கண் இமை மூட மறந்தே நான் காத்திருந்தேன்",
-            "english": "Azhiyaadha aanmaavin virundhaagave ennil ezhundhe nee vaa - உன் ஆன்மீக ராகங்கள் உயிர் வாழவே என்னில்  இசை பாடவா கண் இமை மூட மறந்தே நான் காத்திருந்தேன்",
-            "repeat": 1
-          },
-          {
-            "tamil": "தெய்வமே... செல்வமே - நீ",
-            "english": "Deivame... selvame - nee",
-            "repeat": 1
-          },
-          {
-            "tamil": "என் நெஞ்சம் என் நாளும் துயில் கொள்ளவே",
-            "english": "En nenjam en naalum thuyil kollave",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஓடிவா அருள் கோடி தா ....",
-            "english": "Odivaa arul kodi thaa...",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 2 (Verse 2)",
-        "lines": [
-          {
-            "tamil": "அமுதாக ஆன்மாவில் வருகின்றவா என்னை உருவாக்கவா",
-            "english": "Amudhaaga aanmaavil varuginravaa ennai uruvaakkavaa",
-            "repeat": 1
-          },
-          {
-            "tamil": "நல் அணையாத தீபமாய் திகழ்கின்ற வா ஆன்ம ஒளியேற்றவா",
-            "english": "Nal anaiyaadha theebamaai thigazhginra vaa aanma oliyetravaa",
-            "repeat": 1
-          },
-          {
-            "tamil": "சிறு திரியாக உலகெங்கும் ஒளியேற்றுவன்",
-            "english": "Siru thiriyaaga ulagengum oliyetruvan",
-            "repeat": 1
-          },
-          {
-            "tamil": "தெய்வமே... செல்வமே - நீ",
-            "english": "Deivame... selvame - nee",
-            "repeat": 1
-          },
-          {
-            "tamil": "என் நெஞ்சம் என் நாளும் துயில் கொள்ளவே",
-            "english": "En nenjam en naalum thuyil kollave",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஓடிவா அருள் கோடி தா ....",
-            "english": "Odivaa arul kodi thaa...",
-            "repeat": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "titleTamil": "சர்க்கரை முத்தே சந்தன பொட்டே",
-    "titleEnglish": "Sarkarai Muththe Sandhana Potte",
-    "category": "Lullaby / தாலாட்டு",
-    "preview": "சர்க்கரை முத்தே சந்தன பொட்டே கண்ணே கண்ணுறங்கு - முத்தமிழ் சொத்தே முல்லைப்பூ மொட்டே கண்ணே கண்ணுறங்கு",
-    "sections": [
-      {
-        "type": "chorus",
-        "label": "பல்லவி (Chorus)",
-        "lines": [
-          {
-            "tamil": "சர்க்கரை முத்தே சந்தன பொட்டே கண்ணே கண்ணுறங்கு",
-            "english": "Sarkarai muththe sandhana potte kanne kannurangu",
-            "repeat": 1
-          },
-          {
-            "tamil": "முத்தமிழ் சொத்தே முல்லைப்பூ மொட்டே கண்ணே கண்ணுறங்கு",
-            "english": "Muttamizh sothe mullaipoo motte kanne kannurangu",
-            "repeat": 2
-          },
-          {
-            "tamil": "அன்னை மரியின் செல்வமே விண்ணக தேவ திலகமே",
-            "english": "Annai mariyin selvame vinnaga dheva thilagame",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்ணே நீயும் கண்ணுறங்கு",
-            "english": "Kanne neeyum kannurangu",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆரிராரிரோ ஆரிராரிரோ",
-            "english": "Aarirariro Aarirariro",
-            "repeat": 2
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 1 (Verse 1)",
-        "lines": [
-          {
-            "tamil": "கந்தையில் நீயும் மகிமை கண்டாய்",
-            "english": "Kandhaiyil neeyum magimai kandaai",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்ணே கண்ணுறங்கு",
-            "english": "கண்ணே கண்ணுறங்கு",
-            "repeat": 1
-          },
-          {
-            "tamil": "தந்தையின் அன்பை எமக்குத் தந்தாய்",
-            "english": "Thandhaiyin anbai emakkuth thandhaai",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்ணே கண்ணுறங்கு",
-            "english": "கண்ணே கண்ணுறங்கு",
-            "repeat": 2
-          },
-          {
-            "tamil": "மந்தையின் ஆயர்கள் தோழமை கொண்டாய்",
-            "english": "Mandhaiyin aayargal thozhamai kondaai",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்ணே கண்ணுறங்கு",
-            "english": "கண்ணே கண்ணுறங்கு",
-            "repeat": 2
-          },
-          {
-            "tamil": "விந்தையில் வந்து வேந்தர்கள் நின்றார்",
-            "english": "Vindhaiyil vandhu vendhargal ninraar",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்ணே கண்ணுறங்கு",
-            "english": "கண்ணே கண்ணுறங்கு",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆரிராரிரோ ஆரிராரிரோ",
-            "english": "Aarirariro Aarirariro",
-            "repeat": 2
-          },
-          {
-            "tamil": "சர்க்கரை முத்தே சந்தன பொட்டே கண்ணே கண்ணுறங்கு",
-            "english": "Sarkarai muththe sandhana potte kanne kannurangu",
-            "repeat": 1
-          },
-          {
-            "tamil": "முத்தமிழ் சொத்தே முல்லைப்பூ மொட்டே கண்ணே கண்ணுறங்கு",
-            "english": "Muttamizh sothe mullaipoo motte kanne kannurangu",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 2 (Verse 2)",
-        "lines": [
-          {
-            "tamil": "விண்ணிலே தூதர் கீதங்கள் கேட்க",
-            "english": "Vinnile thoodhar geethangal ketka",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்ணே கண்ணுறங்கு",
-            "english": "கண்ணே கண்ணுறங்கு",
-            "repeat": 1
-          },
-          {
-            "tamil": "மண்ணிலே மாந்தர் நாதங்கள் கேட்க",
-            "english": "Mannile maandhar naadhangal ketka",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்ணே கண்ணுறங்கு",
-            "english": "கண்ணே கண்ணுறங்கு",
-            "repeat": 2
-          },
-          {
-            "tamil": "கண்கவர் விண்மீன் உன்புகழ் காட்ட",
-            "english": "Kankavar vinmeen unpugazh kaatta",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்ணே கண்ணுறங்கு",
-            "english": "கண்ணே கண்ணுறங்கு",
-            "repeat": 2
-          },
-          {
-            "tamil": "தென்றலும் மெல்லிய தேனிசை மீட்ட",
-            "english": "Thendralum melliya thenisai meetta",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்ணே கண்ணுறங்கு",
-            "english": "கண்ணே கண்ணுறங்கு",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆரிராரிரோ ஆரிராரிரோ",
-            "english": "Aarirariro Aarirariro",
-            "repeat": 2
-          },
-          {
-            "tamil": "சர்க்கரை முத்தே சந்தன பொட்டே கண்ணே கண்ணுறங்கு",
-            "english": "Sarkarai muththe sandhana potte kanne kannurangu",
-            "repeat": 1
-          },
-          {
-            "tamil": "முத்தமிழ் சொத்தே முல்லைப்பூ மொட்டே கண்ணே கண்ணுறங்கு",
-            "english": "Muttamizh sothe mullaipoo motte kanne kannurangu",
-            "repeat": 2
-          },
-          {
-            "tamil": "அன்னை மரியின் செல்வமே விண்ணக தேவ திலகமே",
-            "english": "Annai mariyin selvame vinnaga dheva thilagame",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்ணே நீயும் கண்ணுறங்கு",
-            "english": "Kanne neeyum kannurangu",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆரிராரிரோ ஆரிராரிரோ",
-            "english": "Aarirariro Aarirariro",
-            "repeat": 2
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "titleTamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
-    "titleEnglish": "Chinna Chinna Poove Singara Poove",
-    "category": "Nativity / மழலை",
-    "preview": "சின்ன சின்ன பூவே சிங்கார பூவே - உன்னை அள்ளி அணைப்பேனோ பாலாக",
-    "sections": [
-      {
-        "type": "chorus",
-        "label": "பல்லவி (Chorus)",
-        "lines": [
-          {
-            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
-            "english": "Chinna chinna poove singaara poove",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
-            "english": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னை அள்ளி அணைப்பேன் நான் -",
-            "english": "உன்னை அள்ளி அணைப்பேன் நான் -",
-            "repeat": 2
-          },
-          {
-            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
-            "english": "Chinna chinna poove singaara poove",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
-            "english": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னை அள்ளி அணைப்பேன் நான் -",
-            "english": "உன்னை அள்ளி அணைப்பேன் நான் -",
-            "repeat": 2
-          },
-          {
-            "tamil": "கன்னிமரி தனியே கார்த்திகை விளக்கே",
-            "english": "கன்னிமரி தனியே கார்த்திகை விளக்கே",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னை எண்ணி புகழ்வேனோ - என்",
-            "english": "உன்னை எண்ணி புகழ்வேனோ - என்",
-            "repeat": 1
-          },
-          {
-            "tamil": "உள்ளம் எல்லாம் எண்ணி எண்ணி மகிழ்வேனோ",
-            "english": "உள்ளம் எல்லாம் எண்ணி எண்ணி மகிழ்வேனோ",
-            "repeat": 1
-          },
-          {
-            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
-            "english": "Chinna chinna poove singaara poove",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 1 (Verse 1)",
-        "lines": [
-          {
-            "tamil": "தொட்டிலிலே வாழ வந்த கட்டி கரும்பை",
-            "english": "தொட்டிலிலே vaaழ வந்த கட்டி கரும்பை",
-            "repeat": 1
-          },
-          {
-            "tamil": "கட்டி தொட்டி எல்லாம் வீசுவது என்ன நியாயமோ -",
-            "english": "கட்டி தொட்டி எல்லாம் வீசுவது enன நியாயமோ -",
-            "repeat": 2
-          },
-          {
-            "tamil": "பாலாக நீயே காத்தருள்வாய் கண்திறந்தெம்மை காத்தருள்வாய்",
-            "english": "பாலாக neeயே காத்தருள்vaaய் கண்திறந்தெம்மை காத்தருள்vaaய்",
-            "repeat": 1
-          },
-          {
-            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
-            "english": "Chinna chinna poove singaara poove",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 2 (Verse 2)",
-        "lines": [
-          {
-            "tamil": "பஞ்சம் பசி பட்டினியில் வாழும் ஏழைகள்",
-            "english": "பஞ்சம் பசி பட்டினியில் vaaழும் ஏழைகள்",
-            "repeat": 1
-          },
-          {
-            "tamil": "கொஞ்சம் தஞ்சம் என வாழ்ந்திடவா நீ பிறந்ததோ -",
-            "english": "கொஞ்சம் தஞ்சம் என vaaழ்ந்திடவா நீ பிறந்ததோ -",
-            "repeat": 2
-          },
-          {
-            "tamil": "பஞ்சம் பசி பட்டினியில் வாழும் ஏழைகள்",
-            "english": "பஞ்சம் பசி பட்டினியில் vaaழும் ஏழைகள்",
-            "repeat": 1
-          },
-          {
-            "tamil": "கொஞ்சம் தஞ்சம் என வாழ்ந்திடவா நீ பிறந்ததோ -",
-            "english": "கொஞ்சம் தஞ்சம் என vaaழ்ந்திடவா நீ பிறந்ததோ -",
-            "repeat": 2
-          },
-          {
-            "tamil": "மாடி வீடு கோடி தேடி வாழும் செல்ல தம்மை எல்லாம்",
-            "english": "மாடி வீடு கோடி தேடி vaaழும் செல்ல தம்மை எல்லாம்",
-            "repeat": 1
-          },
-          {
-            "tamil": "பகிர்ந்து கொள்ளவே பாலாக நீயே பார்த்தருள்வாய்",
-            "english": "பகிர்ந்து கொள்ளவே பாலாக neeயே பார்த்தருள்vaaய்",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்திறந்து எம்மை காத்தருள்வாய் காத்தருள்வாய்",
-            "english": "கண்திறந்து எம்மை காத்தருள்vaaய் காத்தருள்vaaய்",
-            "repeat": 1
-          },
-          {
-            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
-            "english": "Chinna chinna poove singaara poove",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
-            "english": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னை அள்ளி அணைப்பேன் நான் -",
-            "english": "உன்னை அள்ளி அணைப்பேன் நான் -",
-            "repeat": 2
-          },
-          {
-            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
-            "english": "Chinna chinna poove singaara poove",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
-            "english": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னை அள்ளி அணைப்பேன் நான் - (2)கன்னிமரி தனியே கார்த்திகை விளக்கே",
-            "english": "உன்னை அள்ளி அணைப்பேன் நான் - (2)கன்னிமரி தனியே கார்த்திகை விளக்கே",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னை எண்ணி புகழ்வேனோ - என்",
-            "english": "உன்னை எண்ணி புகழ்வேனோ - என்",
-            "repeat": 1
-          },
-          {
-            "tamil": "உள்ளம் எல்லாம் எண்ணி எண்ணி மகிழ்வேனோ",
-            "english": "உள்ளம் எல்லாம் எண்ணி எண்ணி மகிழ்வேனோ",
-            "repeat": 1
-          },
-          {
-            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
-            "english": "Chinna chinna poove singaara poove",
-            "repeat": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 4,
     "titleTamil": "அன்பின் ராஜாங்கம் அறிவின் தெய்வீகம்",
     "titleEnglish": "Anbin Raajangam Arivin Deiveegam",
     "category": "Worship / ஆராதனை",
@@ -608,44 +162,232 @@
     ]
   },
   {
-    "id": 5,
-    "titleTamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
-    "titleEnglish": "Thanga Sudare Vaa Engal Uyire Vaa",
-    "category": "Praise / துதி",
-    "preview": "தங்கச் சுடரே வா எங்கள் உயிரே வா - மரியின் மகனே வா மண்ணில் வாழ வா",
+    "id": 2,
+    "titleTamil": "ஆசையொரு ஆசை",
+    "titleEnglish": "Aasaiyoru Aasai",
+    "category": "Joy / மகிழ்ச்சி",
+    "preview": "ஆசையொரு ஆசை அள்ளி கொஞ்ச ஆசை பாலன் இயேசு அவரை...",
     "sections": [
       {
         "type": "chorus",
         "label": "பல்லவி (Chorus)",
         "lines": [
           {
-            "tamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
-            "english": "Thanga sudare vaa engal uyire vaa",
-            "repeat": 1
-          },
-          {
-            "tamil": "மரியின் மகனே வா மண்ணில் வாழ வா",
-            "english": "மரியின் மகனே வா மண்ணில் vaaழ வா",
+            "tamil": "ஆசையொரு ஆசை அள்ளி கொஞ்ச ஆசை",
+            "english": "Aasaiyoru aasai alli konja aasai",
             "repeat": 2
           },
           {
-            "tamil": "பேரின்ப நாள் இந்த நாள் விண்ணிலே",
-            "english": "பேரின்ப நாள் இந்த நாள் விண்ணிலே",
-            "repeat": 1
-          },
-          {
-            "tamil": "இயேசு தெய்வம் வந்த நாள் மண்ணிலே",
-            "english": "இயேசு தெய்வம் வந்த நாள் மண்ணிலே",
+            "tamil": "பாலன் இயேசு அவரை அள்ளி கொஞ்ச ஆசை",
+            "english": "Baalan Yesu avarai alli konja aasai",
             "repeat": 2
           },
           {
-            "tamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
-            "english": "Thanga sudare vaa engal uyire vaa",
+            "tamil": "அன்னை மரி அன்பின் மடி குழந்தை இயேசு சிரிக்கின்றார்",
+            "english": "Annai Mari anbin madi kuzhandhai Yesu sirikkindraar",
             "repeat": 1
           },
           {
-            "tamil": "மரியின் மகனே வா மண்ணில் வாழ வா",
-            "english": "மரியின் மகனே வா மண்ணில் vaaழ வா",
+            "tamil": "பூமியிலே தேவ ஒளி புதுமைகளால் நிறைக்கிறார்",
+            "english": "Bhoomiyile Deva oli pudhumaigalaal niraikkiraar",
+            "repeat": 1
+          },
+          {
+            "tamil": "பட்டு விரல் பத்து விரல் அற்புதங்கள் நிகழ்த்துவார்",
+            "english": "Pattu viral patthu viral arpudhangal nigazhthuvaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "மொட்டு விழி பார்வையிலே பாவங்களை துரத்துவார்",
+            "english": "Mottu vizhi paarvaiyile paavangalai thuraththuvaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "Happy Happy Happy Christmas to you all",
+            "english": "Happy Happy Happy Christmas to you all",
+            "repeat": 1
+          },
+          {
+            "tamil": "Merry Merry Merry Christmas I love you all",
+            "english": "Merry Merry Merry Christmas I love you all",
+            "repeat": 1
+          },
+          {
+            "tamil": "குழந்தை இயேசுவை வாழ்த்தி பாடுங்கள்",
+            "english": "Kuzhandhai Yesuvai vaazhththi paadungal",
+            "repeat": 1
+          },
+          {
+            "tamil": "மழலை இயேசுவை மகிழ்ந்து பாடுங்கள்",
+            "english": "Mazhalai Yesuvai magizhndhu paadungal",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 1 (Verse 1)",
+        "lines": [
+          {
+            "tamil": "இறையின் குலமே எழுந்து வா வா",
+            "english": "Iraiyin kulame ezhundhu vaa vaa",
+            "repeat": 1
+          },
+          {
+            "tamil": "நமது இறைவன் பிறந்தார் ஓடிவா வா",
+            "english": "Namadhu Iraivan pirandhaar odivaa vaa",
+            "repeat": 1
+          },
+          {
+            "tamil": "இன்று ஆடி பாடி ஆட்டம் போடு",
+            "english": "Indru aadi paadi aattam podu",
+            "repeat": 1
+          },
+          {
+            "tamil": "அவரின் வருகை நாளை துதித்து பாடு",
+            "english": "Avarin varugai naalai thudhiththu paadu",
+            "repeat": 1
+          },
+          {
+            "tamil": "உலகின் ஒளியானவர் நமது வழியானவர்",
+            "english": "Ulagin oliyaanavar namadhu vazhiyaanavar",
+            "repeat": 1
+          },
+          {
+            "tamil": "மரியின் மகனாக பிறந்தாரே அல்லேலூயா",
+            "english": "Mariyin maganaaga pirandhaare Hallelujah",
+            "repeat": 1
+          },
+          {
+            "tamil": "கொடிய பாவங்களை கொள்ளை வியாதிகளை",
+            "english": "Kodiya paavangalai kollai viyaadhigalai",
+            "repeat": 1
+          },
+          {
+            "tamil": "துரத்தி அடித்திட பிறந்தாரே அல்லேலூயா",
+            "english": "Thuraththi adiththida pirandhaare Hallelujah",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஒன்றாய் கூடிடுவோம் உள்ளம் மகிழ்ந்திடுவோம்",
+            "english": "Ondraai koodiduvom ullam magizhndhiduvom",
+            "repeat": 2
+          },
+          {
+            "tamil": "நன்றாய் பாடிடுவோம் நன்றி சொல்லிடுவோம்",
+            "english": "Nandraai paadiduvom nandri solliduvom",
+            "repeat": 2
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 2 (Verse 2)",
+        "lines": [
+          {
+            "tamil": "கிறிஸ்துமஸ் தாத்தா நானும் வந்தேன்",
+            "english": "Christmas Thaaththaa naanum vandhen",
+            "repeat": 1
+          },
+          {
+            "tamil": "பரிசு நிறைய நெறய கொண்டு வந்தேன்",
+            "english": "Parisu niraiya neraiya kondu vandhen",
+            "repeat": 1
+          },
+          {
+            "tamil": "வாங்க உங்க பரிசை வாங்கி போங்க",
+            "english": "Vaanga unga parisai vaangi ponga",
+            "repeat": 1
+          },
+          {
+            "tamil": "நமது பாலன் பிறப்பே பரிசு தாங்க",
+            "english": "Namadhu Baalan pirappe parisu thaanga",
+            "repeat": 1
+          },
+          {
+            "tamil": "அன்பை அள்ளித் தருவார் கண்ணின் மணியாய் காப்பார்",
+            "english": "Anbai alliththaruvaar kannin maniyaai kaappaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "நமது பாவங்கள் நீக்கியே ஆசீர்வதிப்பார்",
+            "english": "Namadhu paavangal neekkiye aaseervadhippaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஜீவ நதியானவர் ஆன்ம ஒளியானவர்",
+            "english": "Jeeva nadhiyaanavar aanma oliyaanavar",
+            "repeat": 1
+          },
+          {
+            "tamil": "மோட்ச உலகத்தில் நம் வீட்டை கட்டி வைப்பார்",
+            "english": "Motcha ulagaththil nam veettai katti vaippaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "அல்லே அல்லேலூயா அன்பின் ஆனவரே",
+            "english": "Alle Hallelujah anbin aanavare",
+            "repeat": 1
+          },
+          {
+            "tamil": "அல்லே அல்லேலூயா தூய அற்புதரே",
+            "english": "Alle Hallelujah thooya arpudhare",
+            "repeat": 1
+          },
+          {
+            "tamil": "அல்லே அல்லேலூயா சொல்லி கை தட்டுவோம்",
+            "english": "Alle Hallelujah solli kai thattuvom",
+            "repeat": 1
+          },
+          {
+            "tamil": "அல்லே அல்லேலூயா கூடி ஆடிடுவோம்",
+            "english": "Alle Hallelujah koodi aadiduvom",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "chorus",
+        "label": "முடிவு (Outro)",
+        "lines": [
+          {
+            "tamil": "Happy Happy Happy Christmas to you all",
+            "english": "Happy Happy Happy Christmas to you all",
+            "repeat": 2
+          },
+          {
+            "tamil": "Merry Merry Merry Christmas I love you all",
+            "english": "Merry Merry Merry Christmas I love you all",
+            "repeat": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titleTamil": "ஆரிராரிரோ என் கண்ணே நீ தூங்கு",
+    "titleEnglish": "Aarirariro En Kanne Nee Thoongu",
+    "category": "Lullaby / தாலாட்டு",
+    "preview": "ஆரிராரிரோ என் கண்ணே நீ தூங்கு - ஆரிராரிரோ என் கண்ணே நீ தூங்கு - என்",
+    "sections": [
+      {
+        "type": "chorus",
+        "label": "பல்லவி (Chorus)",
+        "lines": [
+          {
+            "tamil": "ஆரிராரிரோ என் கண்ணே நீ தூங்கு",
+            "english": "Aarirariro en kanne nee thoongu",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆரிராரிரோ என் கண்ணே நீ தூங்கு - என்",
+            "english": "Aarirariro en kanne nee thoongu - என்",
+            "repeat": 1
+          },
+          {
+            "tamil": "அன்பே ஆரமுதே கண் மணியே நீ தூங்கு",
+            "english": "Anbe aaramuthe kan maniye nee thoongu",
             "repeat": 2
           }
         ]
@@ -655,38 +397,23 @@
         "label": "சரணம் 1 (Verse 1)",
         "lines": [
           {
-            "tamil": "மாட்டுத் தொழு மஞ்சத்திலே விண்",
-            "english": "மாட்டுத் தொழு மஞ்சத்திலே விண்",
+            "tamil": "அழியாத ஆன்மாவின் விருந்தாகவே என்னில் எழுந்தே நீ வா - உன் ஆன்மீக ராகங்கள் உயிர் வாழவே என்னில்  இசை பாடவா கண் இமை மூட மறந்தே நான் காத்திருந்தேன்",
+            "english": "Azhiyaadha aanmaavin virundhaagave ennil ezhundhe nee vaa - உன் ஆன்மீக ராகங்கள் உயிர் வாழவே என்னில்  இசை பாடவா கண் இமை மூட மறந்தே நான் காத்திருந்தேன்",
             "repeat": 1
           },
           {
-            "tamil": "காட்டும் தெய்வம் தவழ்கின்றதே",
-            "english": "காட்டும் தெய்வம் தவழ்கின்றதே",
-            "repeat": 2
-          },
-          {
-            "tamil": "கோடான கோடி ஏழைகள் வாழ்வில்",
-            "english": "கோடான கோடி ஏழைகள் vaaழ்வில்",
-            "repeat": 2
-          },
-          {
-            "tamil": "கோலங்கள் நீ ஆகினாய் - புது",
-            "english": "கோலங்கள் நீ ஆகினாய் - புது",
+            "tamil": "தெய்வமே... செல்வமே - நீ",
+            "english": "Deivame... selvame - nee",
             "repeat": 1
           },
           {
-            "tamil": "வாழ்வு புவிகாண பூபாளங்கள் முழங்கிடுதே",
-            "english": "vaaழ்வு புவிகாண பூபாளங்கள் முழங்கிடுதே",
-            "repeat": 2
-          },
-          {
-            "tamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
-            "english": "Thanga sudare vaa engal uyire vaa",
+            "tamil": "என் நெஞ்சம் என் நாளும் துயில் கொள்ளவே",
+            "english": "En nenjam en naalum thuyil kollave",
             "repeat": 1
           },
           {
-            "tamil": "மரியின் மகனே வா மண்ணில் வாழ வா",
-            "english": "மரியின் மகனே வா மண்ணில் vaaழ வா",
+            "tamil": "ஓடிவா அருள் கோடி தா ....",
+            "english": "Odivaa arul kodi thaa...",
             "repeat": 1
           }
         ]
@@ -696,59 +423,368 @@
         "label": "சரணம் 2 (Verse 2)",
         "lines": [
           {
-            "tamil": "பாலைவன பயிரினைப் போல் மக்கள்",
-            "english": "பாலைவன பயிரினைப் போல் மக்கள்",
+            "tamil": "அமுதாக ஆன்மாவில் வருகின்றவா என்னை உருவாக்கவா",
+            "english": "Amudhaaga aanmaavil varuginravaa ennai uruvaakkavaa",
             "repeat": 1
           },
           {
-            "tamil": "வாடி நிற்கும் வேளையிலே",
-            "english": "vaaடி நிற்கும் வேளையிலே",
-            "repeat": 2
-          },
-          {
-            "tamil": "உயிராக வந்தாய் வரம் கோடி தந்தாய்",
-            "english": "உயிராக வந்thaaய் வரம் கோடி தந்thaaய்",
-            "repeat": 2
-          },
-          {
-            "tamil": "விண்பாதை நீயல்லவோ - அருள்",
-            "english": "விண்பாதை neeயல்லவோ - அருள்",
+            "tamil": "நல் அணையாத தீபமாய் திகழ்கின்ற வா ஆன்ம ஒளியேற்றவா",
+            "english": "Nal anaiyaadha theebamaai thigazhginra vaa aanma oliyetravaa",
             "repeat": 1
           },
           {
-            "tamil": "வெள்ளம் சுரந்தோட ஆகாயங்கள் திறந்தனவோ",
-            "english": "வெள்ளம் சுரந்தோட ஆகாயங்கள் திறந்தனவோ",
-            "repeat": 2
-          },
-          {
-            "tamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
-            "english": "Thanga sudare vaa engal uyire vaa",
+            "tamil": "சிறு திரியாக உலகெங்கும் ஒளியேற்றுவன்",
+            "english": "Siru thiriyaaga ulagengum oliyetruvan",
             "repeat": 1
           },
           {
-            "tamil": "மரியின் மகனே வா மண்ணில் வாழ வா",
-            "english": "மரியின் மகனே வா மண்ணில் vaaழ வா",
-            "repeat": 2
-          },
-          {
-            "tamil": "பேரின்ப நாள் இந்த நாள் விண்ணிலே",
-            "english": "பேரின்ப நாள் இந்த நாள் விண்ணிலே",
+            "tamil": "தெய்வமே... செல்வமே - நீ",
+            "english": "Deivame... selvame - nee",
             "repeat": 1
           },
           {
-            "tamil": "இயேசு தெய்வம் வந்த நாள் மண்ணிலே",
-            "english": "இயேசு தெய்வம் வந்த நாள் மண்ணிலே",
-            "repeat": 2
-          },
-          {
-            "tamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
-            "english": "Thanga sudare vaa engal uyire vaa",
+            "tamil": "என் நெஞ்சம் என் நாளும் துயில் கொள்ளவே",
+            "english": "En nenjam en naalum thuyil kollave",
             "repeat": 1
           },
           {
-            "tamil": "மரியின் மகனே வா மண்ணில் வாழ வா",
-            "english": "மரியின் மகனே வா மண்ணில் vaaழ வா",
+            "tamil": "ஓடிவா அருள் கோடி தா ....",
+            "english": "Odivaa arul kodi thaa...",
+            "repeat": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titleTamil": "ஒடுக்கப்பட்ட மக்களுக்கு உரிமை வாழ்வு",
+    "titleEnglish": "Odukkappatta Makkalukku Urimai Vaazhvu",
+    "category": "Liberation / வாழ்வு",
+    "preview": "ஒடுக்கப்பட்ட மக்களுக்கு உரிம வாழ்வு - கொடுக்க நம்ம இயேசு சாமி பொறந்துட்டாரு",
+    "sections": [
+      {
+        "type": "chorus",
+        "label": "பல்லவி (Chorus)",
+        "lines": [
+          {
+            "tamil": "ஒடுக்கப்பட்ட மக்களுக்கு உரிம வாழ்வு",
+            "english": "ஒடுக்கப்பட்ட மக்களுக்கு உரிம vaaழ்வு",
+            "repeat": 1
+          },
+          {
+            "tamil": "கொடுக்க நம்ம இயேசு சாமி பொறந்துட்டாரு",
+            "english": "கொடுக்க நம்ம இயேசு சாமி பொறந்துட்டாரு",
+            "repeat": 1
+          },
+          {
+            "tamil": "படைக்கப்பட்ட எல்லாருக்கும் பரலோகம்",
+            "english": "படைக்கப்பட்ட எல்லாருக்கும் பரலோகம்",
+            "repeat": 1
+          },
+          {
+            "tamil": "கெடைக்க நம்ம இயேசு சாமி பொறந்துட்டாரு",
+            "english": "கெடைக்க நம்ம இயேசு சாமி பொறந்துட்டாரு",
+            "repeat": 1
+          },
+          {
+            "tamil": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் ⁰0⁰0 கொட்டுங்கடா",
+            "english": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் ⁰0⁰0 கொட்டுங்கடா",
+            "repeat": 1
+          },
+          {
+            "tamil": "தட்டுங்க தட்டுங்க தட்டுங்கடா தாளம் தட்டுங்கடா",
+            "english": "தட்டுங்க தட்டுங்க தட்டுங்கடா thaaளம் தட்டுங்கடா",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 1 (Verse 1)",
+        "lines": [
+          {
+            "tamil": "அடிம யாரும் இல்ல அரசன் யாரும் இல்ல",
+            "english": "அடிம யாரும் இல்ல அரசன் யாரும் இல்ல",
+            "repeat": 1
+          },
+          {
+            "tamil": "அனைவரும் சம மனுஷருன்னு சொல்ல வந்தாரு",
+            "english": "அனைவரும் சம மனுஷருன்னு சொல்ல வந்thaaரு",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆணும் இங்க இல்ல பெண்ணும் இங்கு இல்ல",
+            "english": "ஆணும் இங்க இல்ல பெண்ணும் இங்கு இல்ல",
+            "repeat": 1
+          },
+          {
+            "tamil": "அனைவரும் அவர் பிள்ளைங்கன்னு சொல்ல வந்தாரு",
+            "english": "அனைவரும் அவர் பிள்ளைங்கன்னு சொல்ல வந்thaaரு",
+            "repeat": 1
+          },
+          {
+            "tamil": "உயர்ந்தவனும் இல்ல தாழ்ந்தவனும் இல்ல",
+            "english": "உயர்ந்தவனும் இல்ல thaaழ்ந்தவனும் இல்ல",
+            "repeat": 1
+          },
+          {
+            "tamil": "உருப்படாத வித்தியாசத்த ஒழிக்க வந்தாரு",
+            "english": "உருப்படாத வித்தியாசத்த ஒழிக்க வந்thaaரு",
+            "repeat": 1
+          },
+          {
+            "tamil": "பெரியவனும் இல்ல சின்னவனும் இல்ல",
+            "english": "பெரியவனும் இல்ல சின்னவனும் இல்ல",
+            "repeat": 1
+          },
+          {
+            "tamil": "நல்லவனா எல்லாரையும் மாத்த வந்தாரு",
+            "english": "நல்லவனா எல்லாரையும் மாத்த வந்thaaரு",
+            "repeat": 1
+          },
+          {
+            "tamil": "இனி தாழ்ந்தவங்க உயர்ந்தவங்க ஆகும் காலமிது",
+            "english": "இனி thaaழ்ந்தவங்க உயர்ந்தவங்க ஆகும் காலமிது",
+            "repeat": 1
+          },
+          {
+            "tamil": "இனி சின்னவங்க பெரியவங்க ஆகும் வேளையிது",
+            "english": "இனி சின்னவங்க பெரியவங்க ஆகும் வேளையிது",
+            "repeat": 1
+          },
+          {
+            "tamil": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் கொட்டுங்கடா",
+            "english": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் கொட்டுங்கடா",
+            "repeat": 1
+          },
+          {
+            "tamil": "தட்டுங்க தட்டுங்க தட்டுங்கடா தாளம் தட்டுங்கடா",
+            "english": "தட்டுங்க தட்டுங்க தட்டுங்கடா thaaளம் தட்டுங்கடா",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 2 (Verse 2)",
+        "lines": [
+          {
+            "tamil": "ஏழ யாரும் இல்ல பணக்காரன் யாரும் இல்ல",
+            "english": "ஏழ யாரும் இல்ல பணக்காரன் யாரும் இல்ல",
+            "repeat": 1
+          },
+          {
+            "tamil": "எல்லாரும் அவர் ஆட்சியில ஒண்ணு இன்னாரு",
+            "english": "எல்லாரும் அவர் ஆட்சியில ஒண்ணு இன்னாரு",
+            "repeat": 1
+          },
+          {
+            "tamil": "மேத யாரும் இல்ல பேத யாரும் இல்ல",
+            "english": "மேத யாரும் இல்ல பேத யாரும் இல்ல",
+            "repeat": 1
+          },
+          {
+            "tamil": "தேவஞானம் எல்லாருக்கும் தேவையின்னாரு",
+            "english": "தேவஞானம் எல்லாருக்கும் தேவையின்னாரு",
+            "repeat": 1
+          },
+          {
+            "tamil": "பாவி யாரும் இல்ல புனிதன் யாரும் இல்ல",
+            "english": "பாவி யாரும் இல்ல புனிதன் யாரும் இல்ல",
+            "repeat": 1
+          },
+          {
+            "tamil": ". போக்கி பாவம் போக்க வந்தாரு",
+            "english": ". போக்கி பாவம் போக்க வந்thaaரு",
+            "repeat": 1
+          },
+          {
+            "tamil": "தலைவன் யாரும் இல்ல தொண்டன் யாரும் இல்ல",
+            "english": "தலைவன் யாரும் இல்ல தொண்டன் யாரும் இல்ல",
+            "repeat": 1
+          },
+          {
+            "tamil": "தலக்கனத்த தகர்க்கும்படி செய்யச் சொன்னாரு",
+            "english": "தலக்கனத்த தகர்க்கும்படி செய்யச் சொன்னாரு",
+            "repeat": 1
+          },
+          {
+            "tamil": "இனி ஏழைகளும் செல்வராகும் நல்ல காலமிது",
+            "english": "இனி ஏழைகளும் செல்வராகும் நல்ல காலமிது",
+            "repeat": 1
+          },
+          {
+            "tamil": "இனி பாவிகளும் புனிதராகும் நல்ல வேளையிது",
+            "english": "இனி பாவிகளும் புனிதராகும் நல்ல வேளையிது",
+            "repeat": 1
+          },
+          {
+            "tamil": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் கொட்டுங்கடா",
+            "english": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் கொட்டுங்கடா",
+            "repeat": 1
+          },
+          {
+            "tamil": "தட்டுங்க தட்டுங்க தட்டுங்கடா தாளம் தட்டுங்கடா",
+            "english": "தட்டுங்க தட்டுங்க தட்டுங்கடா thaaளம் தட்டுங்கடா",
+            "repeat": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titleTamil": "கிழக்கு திசையிலே அந்த சிவந்த வானத்திலே",
+    "titleEnglish": "Kizhakku Thisaiyile Andha Sivandha Vaanathile",
+    "category": "Star & Kings / சாஸ்திரிகள்",
+    "preview": "கிழக்கு திசையிலே அந்த சிவந்த வானத்திலே - மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
+    "sections": [
+      {
+        "type": "chorus",
+        "label": "பல்லவி (Chorus)",
+        "lines": [
+          {
+            "tamil": "கிழக்கு திசையிலே அந்த சிவந்த வானத்திலே",
+            "english": "Kizhakku thisaiyile andha sivandha vaanathile",
+            "repeat": 1
+          },
+          {
+            "tamil": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
+            "english": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
+            "repeat": 1
+          },
+          {
+            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "repeat": 1
+          },
+          {
+            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "repeat": 1
+          },
+          {
+            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "repeat": 1
+          },
+          {
+            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 1 (Verse 1)",
+        "lines": [
+          {
+            "tamil": "விந்தை காணவே வந்த ஞயானியர்",
+            "english": "விந்தை காணவே வந்த ஞயானியர்",
+            "repeat": 1
+          },
+          {
+            "tamil": "கந்தை துணியிலே மன்னனைக் கண்டார்",
+            "english": "கந்தை துணியிலே மன்னனைக் கண்டார்",
             "repeat": 2
+          },
+          {
+            "tamil": "சிந்தை களி கூறவே உள்ளமெல்லாம் மகிழவே",
+            "english": "சிந்தை களி கூறவே உள்ளமெல்லாம் மகிழவே",
+            "repeat": 1
+          },
+          {
+            "tamil": "காணிக்கைகள் தந்து அவர் பாதம் பணிந்தார்",
+            "english": "காணிக்கைகள் தந்து அவர் பாதம் பணிந்thaaர்",
+            "repeat": 1
+          },
+          {
+            "tamil": "கிழக்கு திசையிலே அந்த சிவந்த வானத்திலே",
+            "english": "Kizhakku thisaiyile andha sivandha vaanathile",
+            "repeat": 1
+          },
+          {
+            "tamil": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
+            "english": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
+            "repeat": 1
+          },
+          {
+            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "repeat": 1
+          },
+          {
+            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "repeat": 1
+          },
+          {
+            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "repeat": 1
+          },
+          {
+            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 2 (Verse 2)",
+        "lines": [
+          {
+            "tamil": "சாந்த ரூபனே சாகா ஜீவனே",
+            "english": "சாந்த ரூபனே சாகா ஜீவனே",
+            "repeat": 1
+          },
+          {
+            "tamil": "சாரோன் ரோஜாவே லீலி புஷ்பமே",
+            "english": "சாரோன் ரோஜாவே லீலி புஷ்பமே",
+            "repeat": 2
+          },
+          {
+            "tamil": "அதிசய தேவனே அற்புத ராஜனே",
+            "english": "அதிசய தேவனே அற்புத ராஜனே",
+            "repeat": 1
+          },
+          {
+            "tamil": "அர்பணித்தேன் என்னையே  நான் உந்தன் சொந்தமாய்",
+            "english": "அர்பணித்தேன் enனையே  நான் உந்தன் சொந்தமாய்",
+            "repeat": 2
+          },
+          {
+            "tamil": "கிழக்கு திசையிலே அந்த சிவந்த வானத்திலே",
+            "english": "Kizhakku thisaiyile andha sivandha vaanathile",
+            "repeat": 1
+          },
+          {
+            "tamil": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
+            "english": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
+            "repeat": 1
+          },
+          {
+            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "repeat": 1
+          },
+          {
+            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "repeat": 1
+          },
+          {
+            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "repeat": 1
+          },
+          {
+            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "repeat": 1
           }
         ]
       }
@@ -756,430 +792,6 @@
   },
   {
     "id": 6,
-    "titleTamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
-    "titleEnglish": "Immanuela Immanuela Maadhayaavara Varuga",
-    "category": "Advent / வருகை",
-    "preview": "மானுவேலா மானுவேலா மாதயாவர வருக - மானுவேலா மானுவேலா மாதயாவர வருக",
-    "sections": [
-      {
-        "type": "chorus",
-        "label": "பல்லவி (Chorus)",
-        "lines": [
-          {
-            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
-            "english": "Immanuela Immanuela maadhayaavara varuga",
-            "repeat": 1
-          },
-          {
-            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
-            "english": "Immanuela Immanuela maadhayaavara varuga",
-            "repeat": 1
-          },
-          {
-            "tamil": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
-            "english": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
-            "english": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
-            "english": "Immanuela Immanuela maadhayaavara varuga",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 1 (Verse 1)",
-        "lines": [
-          {
-            "tamil": "பாவ இருளை அகற்றும் புதியொலியே வருக",
-            "english": "பாவ இருளை அகற்றும் புதியொலியே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாவ இருளை அகற்றும் புதியொலியே வருக",
-            "english": "பாவ இருளை அகற்றும் புதியொலியே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "விடிவெள்ளியே விடிவெள்ளியே  கனிவுடனே வருக",
-            "english": "விடிவெள்ளியே விடிவெள்ளியே  கனிவுடனே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "விடிவெள்ளியே விடிவெள்ளியே  கனிவுடனே வருக",
-            "english": "விடிவெள்ளியே விடிவெள்ளியே  கனிவுடனே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
-            "english": "Immanuela Immanuela maadhayaavara varuga",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 2 (Verse 2)",
-        "lines": [
-          {
-            "tamil": "வானக வழி திறக்க வல்லவனே வருக",
-            "english": "vaaனக வழி திறக்க வல்லவனே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "வானக வழி திறக்க வல்லவனே வருக",
-            "english": "vaaனக வழி திறக்க வல்லவனே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "அருட்புனலே அருட்புனலே அன்புடனே வருக",
-            "english": "அருட்புனலே அருட்புனலே அன்புடனே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "அருட்புனலே அருட்புனலே  அன்புடனே வருக",
-            "english": "அருட்புனலே அருட்புனலே  அன்புடனே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
-            "english": "Immanuela Immanuela maadhayaavara varuga",
-            "repeat": 1
-          },
-          {
-            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
-            "english": "Immanuela Immanuela maadhayaavara varuga",
-            "repeat": 1
-          },
-          {
-            "tamil": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
-            "english": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
-            "english": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
-            "repeat": 1
-          },
-          {
-            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
-            "english": "Immanuela Immanuela maadhayaavara varuga",
-            "repeat": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "titleTamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம்",
-    "titleEnglish": "Bethlehem Oorukku Sendriduvom",
-    "category": "Journey / பயணம்",
-    "preview": "பெத்லகேம் ஊருக்குச் செfன்றிடுவோம் - அந்த - பாலனைக் கண்டிடுவோம்",
-    "sections": [
-      {
-        "type": "chorus",
-        "label": "பல்லவி (Chorus)",
-        "lines": [
-          {
-            "tamil": "பெத்லகேம் ஊருக்குச் செfன்றிடுவோம் - அந்த",
-            "english": "பெத்லகேம் ஊருக்குச் செfன்றிடுவோம் - அந்த",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாலனைக் கண்டிடுவோம்",
-            "english": "பாலனைக் கண்டிடுவோம்",
-            "repeat": 1
-          },
-          {
-            "tamil": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
-            "english": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
-            "english": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
-            "repeat": 1
-          },
-          {
-            "tamil": "பெத்லகேம் ஊருக்குச் செfன்றிடுவோம் - அந்த",
-            "english": "பெத்லகேம் ஊருக்குச் செfன்றிடுவோம் - அந்த",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாலனைக் கண்டிடுவோம்",
-            "english": "பாலனைக் கண்டிடுவோம்",
-            "repeat": 1
-          },
-          {
-            "tamil": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
-            "english": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
-            "english": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
-            "repeat": 1
-          },
-          {
-            "tamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம் - அந்த",
-            "english": "Bethlehem oorukkuch sendriduvom - அந்த",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாலனைக் கண்டிடுவோம்",
-            "english": "பாலனைக் கண்டிடுவோம்",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 1 (Verse 1)",
-        "lines": [
-          {
-            "tamil": "உண்மை ஒளியாய் உதித்ததே",
-            "english": "உண்மை ஒளியாய் உதித்ததே",
-            "repeat": 1
-          },
-          {
-            "tamil": "வேற்றுமை அகற்றப் பிறந்ததே",
-            "english": "வேற்றுமை அகற்றப் பிறந்ததே",
-            "repeat": 2
-          },
-          {
-            "tamil": "இறைமை வடிவைக் கொணர்ந்ததே",
-            "english": "இறைமை வடிவைக் கொணர்ந்ததே",
-            "repeat": 2
-          },
-          {
-            "tamil": "மாமரியின் நல்மகனாய் மனித உருவை எடுத்ததே",
-            "english": "மாமரியின் நல்மகனாய் மனித உருவை எடுத்ததே",
-            "repeat": 2
-          },
-          {
-            "tamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம் - அந்த",
-            "english": "Bethlehem oorukkuch sendriduvom - அந்த",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாலனைக் கண்டிடுவோம்",
-            "english": "பாலனைக் கண்டிடுவோம்",
-            "repeat": 1
-          },
-          {
-            "tamil": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
-            "english": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
-            "english": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
-            "repeat": 1
-          },
-          {
-            "tamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம் - அந்த",
-            "english": "Bethlehem oorukkuch sendriduvom - அந்த",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாலனைக் கண்டிடுவோம்",
-            "english": "பாலனைக் கண்டிடுவோம்",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 2 (Verse 2)",
-        "lines": [
-          {
-            "tamil": "இருண்ட உலகை மீட்கவே",
-            "english": "இருண்ட உலகை மீட்கவே",
-            "repeat": 1
-          },
-          {
-            "tamil": "மருண்ட மனதைத் தேற்றவே",
-            "english": "மருண்ட மனதைத் தேற்றவே",
-            "repeat": 2
-          },
-          {
-            "tamil": "உலகின் ஒளியாய் பிறந்தாரே",
-            "english": "உலகின் ஒளியாய் பிறந்thaaரே",
-            "repeat": 2
-          },
-          {
-            "tamil": "உள்ளமதைக் கொள்ளை கொள்ளும்",
-            "english": "உள்ளமதைக் கொள்ளை கொள்ளும்",
-            "repeat": 1
-          },
-          {
-            "tamil": "குழந்தை வடிவில் உதித்தாரே",
-            "english": "குழந்தை வடிவில் உதித்thaaரே",
-            "repeat": 2
-          },
-          {
-            "tamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம் - அந்த",
-            "english": "Bethlehem oorukkuch sendriduvom - அந்த",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாலனைக் கண்டிடுவோம்",
-            "english": "பாலனைக் கண்டிடுவோம்",
-            "repeat": 1
-          },
-          {
-            "tamil": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
-            "english": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
-            "english": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
-            "repeat": 2
-          },
-          {
-            "tamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம் - அந்த",
-            "english": "Bethlehem oorukkuch sendriduvom - அந்த",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாலனைக் கண்டிடுவோம்",
-            "english": "பாலனைக் கண்டிடுவோம்",
-            "repeat": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "titleTamil": "சின்னக் குழந்தை இயேசுவுக்கு என்ன கொடுப்பது",
-    "titleEnglish": "Chinna Kuzhandhai Yesuvukku Enna Koduppadhu",
-    "category": "Offering / அர்ப்பணிப்பு",
-    "preview": "சின்னக் குழந்தை இயேசுவுக்கு என்ன கொடுப்பது(நாம்)-2 ji - 1. மலரைப் படைத்த மழலைக்கு மலரைக் கொடுப்பதா",
-    "sections": [
-      {
-        "type": "chorus",
-        "label": "பல்லவி (Chorus)",
-        "lines": [
-          {
-            "tamil": "சின்னக் குழந்தை இயேசுவுக்கு என்ன கொடுப்பது(நாம்)-2 ji",
-            "english": "Chinna kuzhandhai Yesuvukku enna koduppadhu(நாம்)-2 ji",
-            "repeat": 1
-          },
-          {
-            "tamil": "1. மலரைப் படைத்த மழலைக்கு மலரைக் கொடுப்பதா",
-            "english": "1. மலரைப் படைத்த மழலைக்கு மலரைக் கொடுப்பதா",
-            "repeat": 2
-          },
-          {
-            "tamil": "கனியைப் படைத்த கண்மணிக்கு கனியைக் கொடுப்பதா",
-            "english": "கனியைப் படைத்த கண்மணிக்கு கனியைக் கொடுப்பதா",
-            "repeat": 1
-          },
-          {
-            "tamil": "2. குரலைக் கொடுத்த குழந்தைக்கு இசையை எழுப்பவா",
-            "english": "2. குரலைக் கொடுத்த குழந்தைக்கு இசையை எழுப்பவா",
-            "repeat": 2
-          },
-          {
-            "tamil": "விரலைக் கொடுத்த விமலனுக்கு வீணை மீட்டவா",
-            "english": "விரலைக் கொடுத்த விமலனுக்கு வீணை மீட்டவா",
-            "repeat": 1
-          },
-          {
-            "tamil": "3. புவியைப் படைத்த பரமனுக்கு புவியைக் கொடுப்பதா",
-            "english": "3. புவியைப் படைத்த பரமனுக்கு புவியைக் கொடுப்பதா",
-            "repeat": 2
-          },
-          {
-            "tamil": "பகலும் இரவும் அவன் புகழைப் பாடித் தொழுவதா",
-            "english": "பகலும் இரவும் அவன் புகழைப் பாடித் தொழுவதா",
-            "repeat": 1
-          },
-          {
-            "tamil": "கன்னி ஈன்றி செல்வமே",
-            "english": "கன்னி ஈன்றி செல்வமே",
-            "repeat": 1
-          },
-          {
-            "tamil": "கன்னி ஈன்றி செல்வமே இம்மண்ணில் வந்த தெய்வமே",
-            "english": "Kanni eendra selvame immannil vandha deivame",
-            "repeat": 1
-          },
-          {
-            "tamil": "கண்ணே மணியே அமுதமே என் பொன்னே தேனே இன்பமே",
-            "english": "கண்ணே மணியே அமுதமே என் பொன்னே தேனே இன்பமே",
-            "repeat": 1
-          },
-          {
-            "tamil": "எண்ணம் மேவும் வண்ணமே என்னைத் தேடி வந்ததேன்",
-            "english": "எண்ணம் மேவும் வண்ணமே enனைத் தேடி வந்ததேன்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆரிரோ ஆராரோ",
-            "english": "ஆரிரோ ஆராரோ",
-            "repeat": 2
-          },
-          {
-            "tamil": "1. எங்கும் நிறைந்த இறைவன் நீ நங்கை உதரம் ஒடுங்கினாய்",
-            "english": "1. எங்கும் நிறைந்த இறைவன் நீ நங்கை உதரம் ஒடுங்கினாய்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஞாலம் காக்கும் நாதன் நீ சீலக் கரத்தில் அடங்கினாய்",
-            "english": "ஞாலம் காக்கும் நாதன் நீ சீலக் கரத்தில் அடங்கினாய்",
-            "repeat": 1
-          },
-          {
-            "tamil": "தாய் உன் பிள்ளை அல்லவா சேயாய் மாறும் விந்தை ஏன்?",
-            "english": "thaaய் உன் பிள்ளை அல்லவா சேயாய் மாறும் விந்தை ஏன்?",
-            "repeat": 1
-          },
-          {
-            "tamil": "கன்னி ஈன்றி செல்வமே இம்மண்ணில் வந்த தெய்வமே",
-            "english": "Kanni eendra selvame immannil vandha deivame",
-            "repeat": 1
-          },
-          {
-            "tamil": "2. வல்ல தேவ வார்த்தை நீ வாயில்லாத சிசுவானாய்",
-            "english": "2. வல்ல தேவ vaaர்த்தை நீ vaaயில்லாத சிசுvaaனாய்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆற்றல் அனைத்தின் ஊற்றும் நீ அன்னை துணையை நாடினாய்",
-            "english": "ஆற்றல் அனைத்தின் ஊற்றும் நீ அன்னை துணையை நாடினாய்",
-            "repeat": 1
-          },
-          {
-            "tamil": "இன்ப வாழ்வின் மையம் நீ துன்ப வாழ்வைத் தேந்ததேன்?",
-            "english": "இன்ப vaaழ்வின் மையம் நீ துன்ப vaaழ்வைத் தேந்ததேன்?",
-            "repeat": 1
-          },
-          {
-            "tamil": "கன்னி ஈன்றி செல்வமே இம்மண்ணில் வந்த தெய்வமே",
-            "english": "Kanni eendra selvame immannil vandha deivame",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆரிரோ ஆராரோ",
-            "english": "ஆரிரோ ஆராரோ",
-            "repeat": 2
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 9,
     "titleTamil": "குளிர் கால காற்றே கொஞ்சம் மெதுவாக வா",
     "titleEnglish": "Kulir Kaala Kaatre Konjam Medhuvaaga Vaa",
     "category": "Winter Carol / பனி இரவு",
@@ -1396,7 +1008,184 @@
     ]
   },
   {
-    "id": 10,
+    "id": 7,
+    "titleTamil": "சர்க்கரை முத்தே சந்தன பொட்டே",
+    "titleEnglish": "Sarkarai Muththe Sandhana Potte",
+    "category": "Lullaby / தாலாட்டு",
+    "preview": "சர்க்கரை முத்தே சந்தன பொட்டே கண்ணே கண்ணுறங்கு - முத்தமிழ் சொத்தே முல்லைப்பூ மொட்டே கண்ணே கண்ணுறங்கு",
+    "sections": [
+      {
+        "type": "chorus",
+        "label": "பல்லவி (Chorus)",
+        "lines": [
+          {
+            "tamil": "சர்க்கரை முத்தே சந்தன பொட்டே கண்ணே கண்ணுறங்கு",
+            "english": "Sarkarai muththe sandhana potte kanne kannurangu",
+            "repeat": 1
+          },
+          {
+            "tamil": "முத்தமிழ் சொத்தே முல்லைப்பூ மொட்டே கண்ணே கண்ணுறங்கு",
+            "english": "Muttamizh sothe mullaipoo motte kanne kannurangu",
+            "repeat": 2
+          },
+          {
+            "tamil": "அன்னை மரியின் செல்வமே விண்ணக தேவ திலகமே",
+            "english": "Annai mariyin selvame vinnaga dheva thilagame",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்ணே நீயும் கண்ணுறங்கு",
+            "english": "Kanne neeyum kannurangu",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆரிராரிரோ ஆரிராரிரோ",
+            "english": "Aarirariro Aarirariro",
+            "repeat": 2
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 1 (Verse 1)",
+        "lines": [
+          {
+            "tamil": "கந்தையில் நீயும் மகிமை கண்டாய்",
+            "english": "Kandhaiyil neeyum magimai kandaai",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்ணே கண்ணுறங்கு",
+            "english": "கண்ணே கண்ணுறங்கு",
+            "repeat": 1
+          },
+          {
+            "tamil": "தந்தையின் அன்பை எமக்குத் தந்தாய்",
+            "english": "Thandhaiyin anbai emakkuth thandhaai",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்ணே கண்ணுறங்கு",
+            "english": "கண்ணே கண்ணுறங்கு",
+            "repeat": 2
+          },
+          {
+            "tamil": "மந்தையின் ஆயர்கள் தோழமை கொண்டாய்",
+            "english": "Mandhaiyin aayargal thozhamai kondaai",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்ணே கண்ணுறங்கு",
+            "english": "கண்ணே கண்ணுறங்கு",
+            "repeat": 2
+          },
+          {
+            "tamil": "விந்தையில் வந்து வேந்தர்கள் நின்றார்",
+            "english": "Vindhaiyil vandhu vendhargal ninraar",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்ணே கண்ணுறங்கு",
+            "english": "கண்ணே கண்ணுறங்கு",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆரிராரிரோ ஆரிராரிரோ",
+            "english": "Aarirariro Aarirariro",
+            "repeat": 2
+          },
+          {
+            "tamil": "சர்க்கரை முத்தே சந்தன பொட்டே கண்ணே கண்ணுறங்கு",
+            "english": "Sarkarai muththe sandhana potte kanne kannurangu",
+            "repeat": 1
+          },
+          {
+            "tamil": "முத்தமிழ் சொத்தே முல்லைப்பூ மொட்டே கண்ணே கண்ணுறங்கு",
+            "english": "Muttamizh sothe mullaipoo motte kanne kannurangu",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 2 (Verse 2)",
+        "lines": [
+          {
+            "tamil": "விண்ணிலே தூதர் கீதங்கள் கேட்க",
+            "english": "Vinnile thoodhar geethangal ketka",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்ணே கண்ணுறங்கு",
+            "english": "கண்ணே கண்ணுறங்கு",
+            "repeat": 1
+          },
+          {
+            "tamil": "மண்ணிலே மாந்தர் நாதங்கள் கேட்க",
+            "english": "Mannile maandhar naadhangal ketka",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்ணே கண்ணுறங்கு",
+            "english": "கண்ணே கண்ணுறங்கு",
+            "repeat": 2
+          },
+          {
+            "tamil": "கண்கவர் விண்மீன் உன்புகழ் காட்ட",
+            "english": "Kankavar vinmeen unpugazh kaatta",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்ணே கண்ணுறங்கு",
+            "english": "கண்ணே கண்ணுறங்கு",
+            "repeat": 2
+          },
+          {
+            "tamil": "தென்றலும் மெல்லிய தேனிசை மீட்ட",
+            "english": "Thendralum melliya thenisai meetta",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்ணே கண்ணுறங்கு",
+            "english": "கண்ணே கண்ணுறங்கு",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆரிராரிரோ ஆரிராரிரோ",
+            "english": "Aarirariro Aarirariro",
+            "repeat": 2
+          },
+          {
+            "tamil": "சர்க்கரை முத்தே சந்தன பொட்டே கண்ணே கண்ணுறங்கு",
+            "english": "Sarkarai muththe sandhana potte kanne kannurangu",
+            "repeat": 1
+          },
+          {
+            "tamil": "முத்தமிழ் சொத்தே முல்லைப்பூ மொட்டே கண்ணே கண்ணுறங்கு",
+            "english": "Muttamizh sothe mullaipoo motte kanne kannurangu",
+            "repeat": 2
+          },
+          {
+            "tamil": "அன்னை மரியின் செல்வமே விண்ணக தேவ திலகமே",
+            "english": "Annai mariyin selvame vinnaga dheva thilagame",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்ணே நீயும் கண்ணுறங்கு",
+            "english": "Kanne neeyum kannurangu",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆரிராரிரோ ஆரிராரிரோ",
+            "english": "Aarirariro Aarirariro",
+            "repeat": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
     "titleTamil": "சாமி நம்ம சாமி சாமி இயேசு சாமி",
     "titleEnglish": "Saami Namma Saami Saami Yesu Saami",
     "category": "Celebration / கொண்டாட்டம்",
@@ -1543,559 +1332,304 @@
     ]
   },
   {
+    "id": 9,
+    "titleTamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
+    "titleEnglish": "Chinna Chinna Poove Singara Poove",
+    "category": "Nativity / மழலை",
+    "preview": "சின்ன சின்ன பூவே சிங்கார பூவே - உன்னை அள்ளி அணைப்பேனோ பாலாக",
+    "sections": [
+      {
+        "type": "chorus",
+        "label": "பல்லவி (Chorus)",
+        "lines": [
+          {
+            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
+            "english": "Chinna chinna poove singaara poove",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
+            "english": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னை அள்ளி அணைப்பேன் நான் -",
+            "english": "உன்னை அள்ளி அணைப்பேன் நான் -",
+            "repeat": 2
+          },
+          {
+            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
+            "english": "Chinna chinna poove singaara poove",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
+            "english": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னை அள்ளி அணைப்பேன் நான் -",
+            "english": "உன்னை அள்ளி அணைப்பேன் நான் -",
+            "repeat": 2
+          },
+          {
+            "tamil": "கன்னிமரி தனியே கார்த்திகை விளக்கே",
+            "english": "கன்னிமரி தனியே கார்த்திகை விளக்கே",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னை எண்ணி புகழ்வேனோ - என்",
+            "english": "உன்னை எண்ணி புகழ்வேனோ - என்",
+            "repeat": 1
+          },
+          {
+            "tamil": "உள்ளம் எல்லாம் எண்ணி எண்ணி மகிழ்வேனோ",
+            "english": "உள்ளம் எல்லாம் எண்ணி எண்ணி மகிழ்வேனோ",
+            "repeat": 1
+          },
+          {
+            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
+            "english": "Chinna chinna poove singaara poove",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 1 (Verse 1)",
+        "lines": [
+          {
+            "tamil": "தொட்டிலிலே வாழ வந்த கட்டி கரும்பை",
+            "english": "தொட்டிலிலே vaaழ வந்த கட்டி கரும்பை",
+            "repeat": 1
+          },
+          {
+            "tamil": "கட்டி தொட்டி எல்லாம் வீசுவது என்ன நியாயமோ -",
+            "english": "கட்டி தொட்டி எல்லாம் வீசுவது enன நியாயமோ -",
+            "repeat": 2
+          },
+          {
+            "tamil": "பாலாக நீயே காத்தருள்வாய் கண்திறந்தெம்மை காத்தருள்வாய்",
+            "english": "பாலாக neeயே காத்தருள்vaaய் கண்திறந்தெம்மை காத்தருள்vaaய்",
+            "repeat": 1
+          },
+          {
+            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
+            "english": "Chinna chinna poove singaara poove",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 2 (Verse 2)",
+        "lines": [
+          {
+            "tamil": "பஞ்சம் பசி பட்டினியில் வாழும் ஏழைகள்",
+            "english": "பஞ்சம் பசி பட்டினியில் vaaழும் ஏழைகள்",
+            "repeat": 1
+          },
+          {
+            "tamil": "கொஞ்சம் தஞ்சம் என வாழ்ந்திடவா நீ பிறந்ததோ -",
+            "english": "கொஞ்சம் தஞ்சம் என vaaழ்ந்திடவா நீ பிறந்ததோ -",
+            "repeat": 2
+          },
+          {
+            "tamil": "பஞ்சம் பசி பட்டினியில் வாழும் ஏழைகள்",
+            "english": "பஞ்சம் பசி பட்டினியில் vaaழும் ஏழைகள்",
+            "repeat": 1
+          },
+          {
+            "tamil": "கொஞ்சம் தஞ்சம் என வாழ்ந்திடவா நீ பிறந்ததோ -",
+            "english": "கொஞ்சம் தஞ்சம் என vaaழ்ந்திடவா நீ பிறந்ததோ -",
+            "repeat": 2
+          },
+          {
+            "tamil": "மாடி வீடு கோடி தேடி வாழும் செல்ல தம்மை எல்லாம்",
+            "english": "மாடி வீடு கோடி தேடி vaaழும் செல்ல தம்மை எல்லாம்",
+            "repeat": 1
+          },
+          {
+            "tamil": "பகிர்ந்து கொள்ளவே பாலாக நீயே பார்த்தருள்வாய்",
+            "english": "பகிர்ந்து கொள்ளவே பாலாக neeயே பார்த்தருள்vaaய்",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்திறந்து எம்மை காத்தருள்வாய் காத்தருள்வாய்",
+            "english": "கண்திறந்து எம்மை காத்தருள்vaaய் காத்தருள்vaaய்",
+            "repeat": 1
+          },
+          {
+            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
+            "english": "Chinna chinna poove singaara poove",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
+            "english": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னை அள்ளி அணைப்பேன் நான் -",
+            "english": "உன்னை அள்ளி அணைப்பேன் நான் -",
+            "repeat": 2
+          },
+          {
+            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
+            "english": "Chinna chinna poove singaara poove",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
+            "english": "உன்னை அள்ளி அணைப்பேனோ பாலாக",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னை அள்ளி அணைப்பேன் நான் - (2)கன்னிமரி தனியே கார்த்திகை விளக்கே",
+            "english": "உன்னை அள்ளி அணைப்பேன் நான் - (2)கன்னிமரி தனியே கார்த்திகை விளக்கே",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னை எண்ணி புகழ்வேனோ - என்",
+            "english": "உன்னை எண்ணி புகழ்வேனோ - என்",
+            "repeat": 1
+          },
+          {
+            "tamil": "உள்ளம் எல்லாம் எண்ணி எண்ணி மகிழ்வேனோ",
+            "english": "உள்ளம் எல்லாம் எண்ணி எண்ணி மகிழ்வேனோ",
+            "repeat": 1
+          },
+          {
+            "tamil": "சின்ன சின்ன பூவே சிங்கார பூவே",
+            "english": "Chinna chinna poove singaara poove",
+            "repeat": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "titleTamil": "சின்னக் குழந்தை இயேசுவுக்கு என்ன கொடுப்பது",
+    "titleEnglish": "Chinna Kuzhandhai Yesuvukku Enna Koduppadhu",
+    "category": "Offering / அர்ப்பணிப்பு",
+    "preview": "சின்னக் குழந்தை இயேசுவுக்கு என்ன கொடுப்பது(நாம்)-2 ji - 1. மலரைப் படைத்த மழலைக்கு மலரைக் கொடுப்பதா",
+    "sections": [
+      {
+        "type": "chorus",
+        "label": "பல்லவி (Chorus)",
+        "lines": [
+          {
+            "tamil": "சின்னக் குழந்தை இயேசுவுக்கு என்ன கொடுப்பது(நாம்)-2 ji",
+            "english": "Chinna kuzhandhai Yesuvukku enna koduppadhu(நாம்)-2 ji",
+            "repeat": 1
+          },
+          {
+            "tamil": "1. மலரைப் படைத்த மழலைக்கு மலரைக் கொடுப்பதா",
+            "english": "1. மலரைப் படைத்த மழலைக்கு மலரைக் கொடுப்பதா",
+            "repeat": 2
+          },
+          {
+            "tamil": "கனியைப் படைத்த கண்மணிக்கு கனியைக் கொடுப்பதா",
+            "english": "கனியைப் படைத்த கண்மணிக்கு கனியைக் கொடுப்பதா",
+            "repeat": 1
+          },
+          {
+            "tamil": "2. குரலைக் கொடுத்த குழந்தைக்கு இசையை எழுப்பவா",
+            "english": "2. குரலைக் கொடுத்த குழந்தைக்கு இசையை எழுப்பவா",
+            "repeat": 2
+          },
+          {
+            "tamil": "விரலைக் கொடுத்த விமலனுக்கு வீணை மீட்டவா",
+            "english": "விரலைக் கொடுத்த விமலனுக்கு வீணை மீட்டவா",
+            "repeat": 1
+          },
+          {
+            "tamil": "3. புவியைப் படைத்த பரமனுக்கு புவியைக் கொடுப்பதா",
+            "english": "3. புவியைப் படைத்த பரமனுக்கு புவியைக் கொடுப்பதா",
+            "repeat": 2
+          },
+          {
+            "tamil": "பகலும் இரவும் அவன் புகழைப் பாடித் தொழுவதா",
+            "english": "பகலும் இரவும் அவன் புகழைப் பாடித் தொழுவதா",
+            "repeat": 1
+          },
+          {
+            "tamil": "கன்னி ஈன்றி செல்வமே",
+            "english": "கன்னி ஈன்றி செல்வமே",
+            "repeat": 1
+          },
+          {
+            "tamil": "கன்னி ஈன்றி செல்வமே இம்மண்ணில் வந்த தெய்வமே",
+            "english": "Kanni eendra selvame immannil vandha deivame",
+            "repeat": 1
+          },
+          {
+            "tamil": "கண்ணே மணியே அமுதமே என் பொன்னே தேனே இன்பமே",
+            "english": "கண்ணே மணியே அமுதமே என் பொன்னே தேனே இன்பமே",
+            "repeat": 1
+          },
+          {
+            "tamil": "எண்ணம் மேவும் வண்ணமே என்னைத் தேடி வந்ததேன்",
+            "english": "எண்ணம் மேவும் வண்ணமே enனைத் தேடி வந்ததேன்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆரிரோ ஆராரோ",
+            "english": "ஆரிரோ ஆராரோ",
+            "repeat": 2
+          },
+          {
+            "tamil": "1. எங்கும் நிறைந்த இறைவன் நீ நங்கை உதரம் ஒடுங்கினாய்",
+            "english": "1. எங்கும் நிறைந்த இறைவன் நீ நங்கை உதரம் ஒடுங்கினாய்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஞாலம் காக்கும் நாதன் நீ சீலக் கரத்தில் அடங்கினாய்",
+            "english": "ஞாலம் காக்கும் நாதன் நீ சீலக் கரத்தில் அடங்கினாய்",
+            "repeat": 1
+          },
+          {
+            "tamil": "தாய் உன் பிள்ளை அல்லவா சேயாய் மாறும் விந்தை ஏன்?",
+            "english": "thaaய் உன் பிள்ளை அல்லவா சேயாய் மாறும் விந்தை ஏன்?",
+            "repeat": 1
+          },
+          {
+            "tamil": "கன்னி ஈன்றி செல்வமே இம்மண்ணில் வந்த தெய்வமே",
+            "english": "Kanni eendra selvame immannil vandha deivame",
+            "repeat": 1
+          },
+          {
+            "tamil": "2. வல்ல தேவ வார்த்தை நீ வாயில்லாத சிசுவானாய்",
+            "english": "2. வல்ல தேவ vaaர்த்தை நீ vaaயில்லாத சிசுvaaனாய்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆற்றல் அனைத்தின் ஊற்றும் நீ அன்னை துணையை நாடினாய்",
+            "english": "ஆற்றல் அனைத்தின் ஊற்றும் நீ அன்னை துணையை நாடினாய்",
+            "repeat": 1
+          },
+          {
+            "tamil": "இன்ப வாழ்வின் மையம் நீ துன்ப வாழ்வைத் தேந்ததேன்?",
+            "english": "இன்ப vaaழ்வின் மையம் நீ துன்ப vaaழ்வைத் தேந்ததேன்?",
+            "repeat": 1
+          },
+          {
+            "tamil": "கன்னி ஈன்றி செல்வமே இம்மண்ணில் வந்த தெய்வமே",
+            "english": "Kanni eendra selvame immannil vandha deivame",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆரிரோ ஆராரோ",
+            "english": "ஆரிரோ ஆராரோ",
+            "repeat": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 11,
-    "titleTamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
-    "titleEnglish": "Poo Imaigal Moodi Kannurangum Baalan Yaar",
-    "category": "Lullaby / தாலாட்டு",
-    "preview": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார் - பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-    "sections": [
-      {
-        "type": "chorus",
-        "label": "பல்லவி (Chorus)",
-        "lines": [
-          {
-            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
-            "english": "Poo imaigal moodi kannurangum baalan yaar",
-            "repeat": 1
-          },
-          {
-            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "repeat": 1
-          },
-          {
-            "tamil": "முன்னிடையில் உள்ள புல்லணை உன் மஞ்சமானதோ",
-            "english": "முன்னிடையில் உள்ள புல்லணை உன் மஞ்சமானதோ",
-            "repeat": 1
-          },
-          {
-            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
-            "english": "Poo imaigal moodi kannurangum baalan yaar",
-            "repeat": 1
-          },
-          {
-            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்தாரோ",
-            "english": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்thaaரோ",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 1 (Verse 1)",
-        "lines": [
-          {
-            "tamil": "வானத்தின் மகிமையை விடுத்து வந்தனையோ",
-            "english": "vaaனத்தின் மகிமையை விடுத்து வந்தனையோ",
-            "repeat": 1
-          },
-          {
-            "tamil": "வையத்தின் சுமைகளை ஏற்க வந்தனையோ (2)……….",
-            "english": "வையத்தின் சுமைகளை ஏற்க வந்தனையோ (2)……….",
-            "repeat": 1
-          },
-          {
-            "tamil": "தந்தையின் ஆசையோ ஆஹா தந்தையின் ஆசையோ",
-            "english": "thandhaiயின் ஆசையோ ஆஹா thandhaiயின் ஆசையோ",
-            "repeat": 1
-          },
-          {
-            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
-            "english": "Poo imaigal moodi kannurangum baalan yaar",
-            "repeat": 1
-          },
-          {
-            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்தாரோ",
-            "english": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்thaaரோ",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 2 (Verse 2)",
-        "lines": [
-          {
-            "tamil": "மாட்டுத் தொழுவத்தில் பிறந்த,,தும் ஏனோ",
-            "english": "மாட்டுத் தொழுவத்தில் பிறந்த,,தும் ஏனோ",
-            "repeat": 1
-          },
-          {
-            "tamil": "மாந்தர் குற்றங்களை மன்னித்ததும் ஏனோ",
-            "english": "மாந்தர் குற்றங்களை மன்னித்ததும் ஏனோ",
-            "repeat": 2
-          },
-          {
-            "tamil": "தந்தையின் ஆசையோ ஆஹா தந்தையின் ஆசையோ",
-            "english": "thandhaiயின் ஆசையோ ஆஹா thandhaiயின் ஆசையோ",
-            "repeat": 1
-          },
-          {
-            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
-            "english": "Poo imaigal moodi kannurangum baalan yaar",
-            "repeat": 1
-          },
-          {
-            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்தாரோ",
-            "english": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்thaaரோ",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 3 (Verse 3)",
-        "lines": [
-          {
-            "tamil": "வானுடை நட்சத்திரம் துலங்கியதேனோ",
-            "english": "vaaனுடை நட்சத்திரம் துலங்கியதேனோ",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஏரோது இராஜனும் கலங்கியதேனோ",
-            "english": "ஏரோது இராஜனும் கலங்கியதேனோ",
-            "repeat": 2
-          },
-          {
-            "tamil": "இராஜன் நீரன்றோ யூதராஜன் நீரன்றோ",
-            "english": "இராஜன் neeரன்றோ யூதராஜன் neeரன்றோ",
-            "repeat": 1
-          },
-          {
-            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
-            "english": "Poo imaigal moodi kannurangum baalan yaar",
-            "repeat": 1
-          },
-          {
-            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "repeat": 1
-          },
-          {
-            "tamil": "முன்னிடையில் உள்ள புல்லணை உன் மஞ்சமானதோ",
-            "english": "முன்னிடையில் உள்ள புல்லணை உன் மஞ்சமானதோ",
-            "repeat": 1
-          },
-          {
-            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
-            "english": "Poo imaigal moodi kannurangum baalan yaar",
-            "repeat": 1
-          },
-          {
-            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்தாரோ",
-            "english": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்thaaரோ",
-            "repeat": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "titleTamil": "ஹே ஹே... ஹேப்பி கிறிஸ்மஸ்",
-    "titleEnglish": "Hey Hey Happy Christmas",
-    "category": "Joy / மகிழ்ச்சி",
-    "preview": "ஹே ஹே... ஹேப்பி கிறிஸ்மஸ் ஹேப்பி கிறிஸ்மஸ் - கொண்டாடுவோம் வாங்க...",
-    "sections": [
-      {
-        "type": "chorus",
-        "label": "பல்லவி (Chorus)",
-        "lines": [
-          {
-            "tamil": "ஹே ஹே... ஹேப்பி கிறிஸ்மஸ் ஹேப்பி கிறிஸ்மஸ்",
-            "english": "Hey hey... Happy Christmas Happy Christmas",
-            "repeat": 1
-          },
-          {
-            "tamil": "கொண்டாடுவோம் வாங்க...",
-            "english": "கொண்டாடுவோம் vaaங்க...",
-            "repeat": 1
-          },
-          {
-            "tamil": "மெர்ரி கிறிஸ்மஸ் மெர்ரி கிறிஸ்மஸ்",
-            "english": "மெர்ரி கிறிஸ்மஸ் மெர்ரி கிறிஸ்மஸ்",
-            "repeat": 1
-          },
-          {
-            "tamil": "கொண்டாடுவோம் வாங்க...",
-            "english": "கொண்டாடுவோம் vaaங்க...",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆஹா எல்லோருக்கும் செய்தி",
-            "english": "ஆஹா எல்லோருக்கும் செய்தி",
-            "repeat": 1
-          },
-          {
-            "tamil": "நம் பாலன் பிறந்த செய்தி",
-            "english": "நம் பாலன் பிறந்த செய்தி",
-            "repeat": 1
-          },
-          {
-            "tamil": "இத கொண்டாடுவோம் வாங்க",
-            "english": "இத கொண்டாடுவோம் vaaங்க",
-            "repeat": 1
-          },
-          {
-            "tamil": "இனி பண் பாடலாம் நீங்க",
-            "english": "இனி பண் பாடலாம் neeங்க",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 1 (Verse 1)",
-        "lines": [
-          {
-            "tamil": "பாலன் இயேசு பிறந்துவிட்டார் மாட்டு தொழுவிலே",
-            "english": "பாலன் இயேசு பிறந்துவிட்டார் மாட்டு தொழுவிலே",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாவிகளை மீட்க்க வந்தார் ஏழை வடிவிலே",
-            "english": "பாவிகளை மீட்க்க வந்thaaர் ஏழை வடிவிலே",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாவ இருள் போக்க வந்த தேவ மைந்தனே",
-            "english": "பாவ இருள் போக்க வந்த தேவ மைந்தனே",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாமரனாய் மண்ணில் வந்தார் அன்னை மடியிலே",
-            "english": "பாமரனாய் மண்ணில் வந்thaaர் அன்னை மடியிலே",
-            "repeat": 1
-          },
-          {
-            "tamil": "சந்தோசமா ஆடு... சங்கீதத்த பாடு...",
-            "english": "சந்தோசமா ஆடு... சங்கீதத்த பாடு...",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆனந்தமா கூடு... பாலன் இயேசுவை நீ தேடு...",
-            "english": "ஆனந்தமா கூடு... பாலன் Yesuவை நீ தேடு...",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாட்டுப் பாடி ஆட்டம் ஆடி புதுப் பாட்டு பாடு",
-            "english": "பாட்டுப் பாடி ஆட்டம் ஆடி புதுப் பாட்டு பாடு",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாலன் இயேசு பிறந்ததாலே நீ சந்தோஷமா ஆடு",
-            "english": "பாலன் இயேசு பிறந்ததாலே நீ சந்தோஷமா ஆடு",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 2 (Verse 2)",
-        "lines": [
-          {
-            "tamil": "வான தூதர் வாழ்த்து செய்தி சொல்லி சென்றனர்",
-            "english": "vaaன தூதர் vaaழ்த்து செய்தி சொல்லி சென்றனர்",
-            "repeat": 1
-          },
-          {
-            "tamil": "இடையர்களும் செய்தி கேட்டு மகிழ்ந்து நின்றனர்",
-            "english": "இடையர்களும் செய்தி கேட்டு மகிழ்ந்து நின்றனர்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஞானிகள் மூவரும் பார்க்க வந்தனர்",
-            "english": "ஞானிகள் மூவரும் பார்க்க வந்தனர்",
-            "repeat": 1
-          },
-          {
-            "tamil": "பொன் வெள்ளி போலம் வைத்து வணங்கி மகிழ்ந்தனர்",
-            "english": "பொன் வெள்ளி போலம் வைத்து வணங்கி மகிழ்ந்தனர்",
-            "repeat": 1
-          },
-          {
-            "tamil": "நட்சத்திரம் பாரு... விடியலை நீ தேடு...",
-            "english": "நட்சத்திரம் பாரு... விடியலை நீ தேடு...",
-            "repeat": 1
-          },
-          {
-            "tamil": "மணியோசை கேளு... குழந்தை இயேசுவை நீ பாரு...",
-            "english": "மணியோசை கேளு... குழந்தை Yesuவை நீ பாரு...",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாட்டுப் பாடி ஆட்டம் ஆடி புதுப் பாட்டு பாடு",
-            "english": "பாட்டுப் பாடி ஆட்டம் ஆடி புதுப் பாட்டு பாடு",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாலன் இயேசு பிறந்ததாலே நீ சந்தோஷமா ஆடு",
-            "english": "பாலன் இயேசு பிறந்ததாலே நீ சந்தோஷமா ஆடு",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஹே ஹே... ஹேப்பி கிறிஸ்மஸ் ஹேப்பி கிறிஸ்மஸ்",
-            "english": "Hey hey... Happy Christmas Happy Christmas",
-            "repeat": 1
-          },
-          {
-            "tamil": "கொண்டாடுவோம் வாங்க...",
-            "english": "கொண்டாடுவோம் vaaங்க...",
-            "repeat": 1
-          },
-          {
-            "tamil": "மெர்ரி கிறிஸ்மஸ் மெர்ரி கிறிஸ்மஸ்",
-            "english": "மெர்ரி கிறிஸ்மஸ் மெர்ரி கிறிஸ்மஸ்",
-            "repeat": 1
-          },
-          {
-            "tamil": "கொண்டாடுவோம் வாங்க...",
-            "english": "கொண்டாடுவோம் vaaங்க...",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆஹா எல்லோருக்கும் செய்தி",
-            "english": "ஆஹா எல்லோருக்கும் செய்தி",
-            "repeat": 1
-          },
-          {
-            "tamil": "நம் பாலன் பிறந்த செய்தி",
-            "english": "நம் பாலன் பிறந்த செய்தி",
-            "repeat": 1
-          },
-          {
-            "tamil": "இத கொண்டாடுவோம் வாங்க",
-            "english": "இத கொண்டாடுவோம் vaaங்க",
-            "repeat": 1
-          },
-          {
-            "tamil": "இனி பண் பாடலாம் நீங்க",
-            "english": "இனி பண் பாடலாம் neeங்க",
-            "repeat": 2
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "titleTamil": "நட்ட நடு சாமத்துல கொட்டும் பனி வேளயில",
-    "titleEnglish": "Natta Nadu Saamathula Kottum Pani Velaiyila",
-    "category": "Folk Carol / கிராமியம்",
-    "preview": "நட்ட நடு சாமத்துல கொட்டும் பனி வேளயில - ஆண்டவனின் சம்மனச பார்த்தாங்க",
-    "sections": [
-      {
-        "type": "chorus",
-        "label": "பல்லவி (Chorus)",
-        "lines": [
-          {
-            "tamil": "நட்ட நடு சாமத்துல கொட்டும் பனி வேளயில",
-            "english": "Natta nadu saamathula kottum pani velaiyila",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆண்டவனின் சம்மனச பார்த்தாங்க",
-            "english": "ஆண்டவனின் சம்மனச பார்த்thaaங்க",
-            "repeat": 1
-          },
-          {
-            "tamil": "இடையர் பார்த்தாங்க",
-            "english": "இடையர் பார்த்thaaங்க",
-            "repeat": 1
-          },
-          {
-            "tamil": "திட்டப்படி தேவமகன் பட்டுப்போன உலகத்திலே",
-            "english": "திட்டப்படி தேவமகன் பட்டுப்போன உலகத்திலே",
-            "repeat": 1
-          },
-          {
-            "tamil": "மொட்டுப்போல மலர்ந்த செய்தி கேட்டாங்க",
-            "english": "மொட்டுப்போல மலர்ந்த செய்தி கேட்டாங்க",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாட்டும் கேட்டாங்க",
-            "english": "பாட்டும் கேட்டாங்க",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னதத்தில் மகிமை தேவனுக்கு",
-            "english": "உன்னதத்தில் மகிமை தேவனுக்கு",
-            "repeat": 1
-          },
-          {
-            "tamil": "மண்ணகத்தில் அமைதி மனுசனுக்கு",
-            "english": "மண்ணகத்தில் அமைதி மனுசனுக்கு",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 1 (Verse 1)",
-        "lines": [
-          {
-            "tamil": "ஆட்டுக்குட்டிய தூக்கிக்கிட்டு",
-            "english": "ஆட்டுக்குட்டிய தூக்கிக்கிட்டு",
-            "repeat": 1
-          },
-          {
-            "tamil": "நெய்யும் பாலும்தான் எடுத்துக்கிட்டு",
-            "english": "நெய்யும் பாலும்thaaன் எடுத்துக்கிட்டு",
-            "repeat": 1
-          },
-          {
-            "tamil": "கட்டுச்சோறும் தான் கட்டிக்கிட்டு",
-            "english": "கட்டுச்சோறும் thaaன் கட்டிக்கிட்டு",
-            "repeat": 1
-          },
-          {
-            "tamil": "பெத்லஹேம் ஊருக்குப் போனாங்களே",
-            "english": "பெத்லஹேம் ஊருக்குப் போனாங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "கொட்டகையில் கிடந்த முன் கட்டிலில்",
-            "english": "கொட்டகையில் கிடந்த முன் கட்டிலில்",
-            "repeat": 1
-          },
-          {
-            "tamil": "இயேசு பாலகனை எட்டி பார்த்தாங்களே",
-            "english": "இயேசு பாலகனை எட்டி பார்த்thaaங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "விட்டுப் போன சொந்த பந்தமெல்லாம்",
-            "english": "விட்டுப் போன சொந்த பந்தமெல்லாம்",
-            "repeat": 1
-          },
-          {
-            "tamil": "சாமி வந்ததுன்னு தொட்டு கும்பிட்டாங்களே",
-            "english": "சாமி வந்ததுன்னு தொட்டு கும்பிட்டாங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "வாருங்க நீங்களும் வாருங்களே",
-            "english": "vaaருங்க neeங்களும் vaaருங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "வாழ்விக்கும் பாலனை பாருங்களே",
-            "english": "vaaழ்விக்கும் பாலனை பாருங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "கூடுங்க ஒன்றாகக் கூடுங்களே",
-            "english": "கூடுங்க ஒன்றாகக் கூடுங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "கும்பிட்டு கும்மாளம் போடுங்களே",
-            "english": "கும்பிட்டு கும்மாளம் போடுங்களே",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 2 (Verse 2)",
-        "lines": [
-          {
-            "tamil": "வானத்தில் விண்மீனைப் பார்த்துக்கிட்டு",
-            "english": "vaaனத்தில் விண்மீனைப் பார்த்துக்கிட்டு",
-            "repeat": 1
-          },
-          {
-            "tamil": "மெசியா பொறந்தத தெரிஞ்சிக்கிட்டு",
-            "english": "மெசியா பொறந்தத தெரிஞ்சிக்கிட்டு",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஞானிகள் மூணுபேர் சேர்ந்துக்கிட்டு",
-            "english": "ஞானிகள் மூணுபேர் சேர்ந்துக்கிட்டு",
-            "repeat": 1
-          },
-          {
-            "tamil": "விண்மீனு பின்னாடி போனாங்களே",
-            "english": "விண்மீனு பின்னாடி போனாங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஏழைகளின் சூழ எல்லாருக்கும்",
-            "english": "ஏழைகளின் சூழ எல்லாருக்கும்",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஏழ்மையில் கிடப்பத பார்த்தாங்களே",
-            "english": "ஏழ்மையில் கிடப்பத பார்த்thaaங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "எடுத்து வந்த தங்கம் வைரம் தூபம் தந்து",
-            "english": "எடுத்து வந்த தங்கம் வைரம் தூபம் தந்து",
-            "repeat": 1
-          },
-          {
-            "tamil": "வேந்தனின் பொற்பாதம் பணிந்தாங்களே",
-            "english": "வேந்தனின் பொற்பாதம் பணிந்thaaங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "வாருங்க நீங்களும் வாருங்களே",
-            "english": "vaaருங்க neeங்களும் vaaருங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "வாழ்த்துகள் சொல்லியே பாடுங்களே",
-            "english": "vaaழ்த்துகள் சொல்லியே பாடுங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாருங்க உங்கள பாருங்களே",
-            "english": "பாருங்க உங்கள பாருங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "தந்தான தானன்னே பாடுங்களே",
-            "english": "தந்thaaன thaaனன்னே பாடுங்களே",
-            "repeat": 1
-          },
-          {
-            "tamil": "உன்னதத்தில் மகிமை தேவனுக்கே",
-            "english": "உன்னதத்தில் மகிமை தேவனுக்கே",
-            "repeat": 1
-          },
-          {
-            "tamil": "மண்ணகத்தில் அமைதி மாந்தருக்கு",
-            "english": "மண்ணகத்தில் அமைதி மாந்தருக்கு",
-            "repeat": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": 14,
     "titleTamil": "சின்னஞ்சிறிய குடிலிலே / குடிலை கொஞ்சம் பாரு",
     "titleEnglish": "Chinnanchiriya Kudilile / Kudilai Konjam Paaru",
     "category": "Manger / குடில்",
@@ -2503,45 +2037,45 @@
     ]
   },
   {
-    "id": 15,
-    "titleTamil": "கிழக்கு திசையிலே அந்த சிவந்த வானத்திலே",
-    "titleEnglish": "Kizhakku Thisaiyile Andha Sivandha Vaanathile",
-    "category": "Star & Kings / சாஸ்திரிகள்",
-    "preview": "கிழக்கு திசையிலே அந்த சிவந்த வானத்திலே - மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
+    "id": 12,
+    "titleTamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
+    "titleEnglish": "Thanga Sudare Vaa Engal Uyire Vaa",
+    "category": "Praise / துதி",
+    "preview": "தங்கச் சுடரே வா எங்கள் உயிரே வா - மரியின் மகனே வா மண்ணில் வாழ வா",
     "sections": [
       {
         "type": "chorus",
         "label": "பல்லவி (Chorus)",
         "lines": [
           {
-            "tamil": "கிழக்கு திசையிலே அந்த சிவந்த வானத்திலே",
-            "english": "Kizhakku thisaiyile andha sivandha vaanathile",
+            "tamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
+            "english": "Thanga sudare vaa engal uyire vaa",
             "repeat": 1
           },
           {
-            "tamil": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
-            "english": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
+            "tamil": "மரியின் மகனே வா மண்ணில் வாழ வா",
+            "english": "மரியின் மகனே வா மண்ணில் vaaழ வா",
+            "repeat": 2
+          },
+          {
+            "tamil": "பேரின்ப நாள் இந்த நாள் விண்ணிலே",
+            "english": "பேரின்ப நாள் இந்த நாள் விண்ணிலே",
             "repeat": 1
           },
           {
-            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
-            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "tamil": "இயேசு தெய்வம் வந்த நாள் மண்ணிலே",
+            "english": "இயேசு தெய்வம் வந்த நாள் மண்ணிலே",
+            "repeat": 2
+          },
+          {
+            "tamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
+            "english": "Thanga sudare vaa engal uyire vaa",
             "repeat": 1
           },
           {
-            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
-            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
-            "repeat": 1
-          },
-          {
-            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
-            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
-            "repeat": 1
-          },
-          {
-            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
-            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
-            "repeat": 1
+            "tamil": "மரியின் மகனே வா மண்ணில் வாழ வா",
+            "english": "மரியின் மகனே வா மண்ணில் vaaழ வா",
+            "repeat": 2
           }
         ]
       },
@@ -2550,53 +2084,38 @@
         "label": "சரணம் 1 (Verse 1)",
         "lines": [
           {
-            "tamil": "விந்தை காணவே வந்த ஞயானியர்",
-            "english": "விந்தை காணவே வந்த ஞயானியர்",
+            "tamil": "மாட்டுத் தொழு மஞ்சத்திலே விண்",
+            "english": "மாட்டுத் தொழு மஞ்சத்திலே விண்",
             "repeat": 1
           },
           {
-            "tamil": "கந்தை துணியிலே மன்னனைக் கண்டார்",
-            "english": "கந்தை துணியிலே மன்னனைக் கண்டார்",
+            "tamil": "காட்டும் தெய்வம் தவழ்கின்றதே",
+            "english": "காட்டும் தெய்வம் தவழ்கின்றதே",
             "repeat": 2
           },
           {
-            "tamil": "சிந்தை களி கூறவே உள்ளமெல்லாம் மகிழவே",
-            "english": "சிந்தை களி கூறவே உள்ளமெல்லாம் மகிழவே",
+            "tamil": "கோடான கோடி ஏழைகள் வாழ்வில்",
+            "english": "கோடான கோடி ஏழைகள் vaaழ்வில்",
+            "repeat": 2
+          },
+          {
+            "tamil": "கோலங்கள் நீ ஆகினாய் - புது",
+            "english": "கோலங்கள் நீ ஆகினாய் - புது",
             "repeat": 1
           },
           {
-            "tamil": "காணிக்கைகள் தந்து அவர் பாதம் பணிந்தார்",
-            "english": "காணிக்கைகள் தந்து அவர் பாதம் பணிந்thaaர்",
+            "tamil": "வாழ்வு புவிகாண பூபாளங்கள் முழங்கிடுதே",
+            "english": "vaaழ்வு புவிகாண பூபாளங்கள் முழங்கிடுதே",
+            "repeat": 2
+          },
+          {
+            "tamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
+            "english": "Thanga sudare vaa engal uyire vaa",
             "repeat": 1
           },
           {
-            "tamil": "கிழக்கு திசையிலே அந்த சிவந்த வானத்திலே",
-            "english": "Kizhakku thisaiyile andha sivandha vaanathile",
-            "repeat": 1
-          },
-          {
-            "tamil": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
-            "english": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
-            "repeat": 1
-          },
-          {
-            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
-            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
-            "repeat": 1
-          },
-          {
-            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
-            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
-            "repeat": 1
-          },
-          {
-            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
-            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
-            "repeat": 1
-          },
-          {
-            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
-            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "tamil": "மரியின் மகனே வா மண்ணில் வாழ வா",
+            "english": "மரியின் மகனே வா மண்ணில் vaaழ வா",
             "repeat": 1
           }
         ]
@@ -2606,53 +2125,255 @@
         "label": "சரணம் 2 (Verse 2)",
         "lines": [
           {
-            "tamil": "சாந்த ரூபனே சாகா ஜீவனே",
-            "english": "சாந்த ரூபனே சாகா ஜீவனே",
+            "tamil": "பாலைவன பயிரினைப் போல் மக்கள்",
+            "english": "பாலைவன பயிரினைப் போல் மக்கள்",
             "repeat": 1
           },
           {
-            "tamil": "சாரோன் ரோஜாவே லீலி புஷ்பமே",
-            "english": "சாரோன் ரோஜாவே லீலி புஷ்பமே",
+            "tamil": "வாடி நிற்கும் வேளையிலே",
+            "english": "vaaடி நிற்கும் வேளையிலே",
             "repeat": 2
           },
           {
-            "tamil": "அதிசய தேவனே அற்புத ராஜனே",
-            "english": "அதிசய தேவனே அற்புத ராஜனே",
-            "repeat": 1
-          },
-          {
-            "tamil": "அர்பணித்தேன் என்னையே  நான் உந்தன் சொந்தமாய்",
-            "english": "அர்பணித்தேன் enனையே  நான் உந்தன் சொந்தமாய்",
+            "tamil": "உயிராக வந்தாய் வரம் கோடி தந்தாய்",
+            "english": "உயிராக வந்thaaய் வரம் கோடி தந்thaaய்",
             "repeat": 2
           },
           {
-            "tamil": "கிழக்கு திசையிலே அந்த சிவந்த வானத்திலே",
-            "english": "Kizhakku thisaiyile andha sivandha vaanathile",
+            "tamil": "விண்பாதை நீயல்லவோ - அருள்",
+            "english": "விண்பாதை neeயல்லவோ - அருள்",
             "repeat": 1
           },
           {
-            "tamil": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
-            "english": "மாலைப் பொழுதிலே அந்தி மயங்கும் வேளையிலே",
+            "tamil": "வெள்ளம் சுரந்தோட ஆகாயங்கள் திறந்தனவோ",
+            "english": "வெள்ளம் சுரந்தோட ஆகாயங்கள் திறந்தனவோ",
+            "repeat": 2
+          },
+          {
+            "tamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
+            "english": "Thanga sudare vaa engal uyire vaa",
             "repeat": 1
           },
           {
-            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
-            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "tamil": "மரியின் மகனே வா மண்ணில் வாழ வா",
+            "english": "மரியின் மகனே வா மண்ணில் vaaழ வா",
+            "repeat": 2
+          },
+          {
+            "tamil": "பேரின்ப நாள் இந்த நாள் விண்ணிலே",
+            "english": "பேரின்ப நாள் இந்த நாள் விண்ணிலே",
             "repeat": 1
           },
           {
-            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
-            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "tamil": "இயேசு தெய்வம் வந்த நாள் மண்ணிலே",
+            "english": "இயேசு தெய்வம் வந்த நாள் மண்ணிலே",
+            "repeat": 2
+          },
+          {
+            "tamil": "தங்கச் சுடரே வா எங்கள் உயிரே வா",
+            "english": "Thanga sudare vaa engal uyire vaa",
             "repeat": 1
           },
           {
-            "tamil": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
-            "english": "அழகான வெள்ளி ஒன்று செல்லுதே - அது",
+            "tamil": "மரியின் மகனே வா மண்ணில் வாழ வா",
+            "english": "மரியின் மகனே வா மண்ணில் vaaழ வா",
+            "repeat": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "titleTamil": "நட்ட நடு சாமத்துல கொட்டும் பனி வேளயில",
+    "titleEnglish": "Natta Nadu Saamathula Kottum Pani Velaiyila",
+    "category": "Folk Carol / கிராமியம்",
+    "preview": "நட்ட நடு சாமத்துல கொட்டும் பனி வேளயில - ஆண்டவனின் சம்மனச பார்த்தாங்க",
+    "sections": [
+      {
+        "type": "chorus",
+        "label": "பல்லவி (Chorus)",
+        "lines": [
+          {
+            "tamil": "நட்ட நடு சாமத்துல கொட்டும் பனி வேளயில",
+            "english": "Natta nadu saamathula kottum pani velaiyila",
             "repeat": 1
           },
           {
-            "tamil": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
-            "english": "மன்னன் இயேசு பிறந்த செய்தி சொல்லுதே",
+            "tamil": "ஆண்டவனின் சம்மனச பார்த்தாங்க",
+            "english": "ஆண்டவனின் சம்மனச பார்த்thaaங்க",
+            "repeat": 1
+          },
+          {
+            "tamil": "இடையர் பார்த்தாங்க",
+            "english": "இடையர் பார்த்thaaங்க",
+            "repeat": 1
+          },
+          {
+            "tamil": "திட்டப்படி தேவமகன் பட்டுப்போன உலகத்திலே",
+            "english": "திட்டப்படி தேவமகன் பட்டுப்போன உலகத்திலே",
+            "repeat": 1
+          },
+          {
+            "tamil": "மொட்டுப்போல மலர்ந்த செய்தி கேட்டாங்க",
+            "english": "மொட்டுப்போல மலர்ந்த செய்தி கேட்டாங்க",
+            "repeat": 1
+          },
+          {
+            "tamil": "பாட்டும் கேட்டாங்க",
+            "english": "பாட்டும் கேட்டாங்க",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னதத்தில் மகிமை தேவனுக்கு",
+            "english": "உன்னதத்தில் மகிமை தேவனுக்கு",
+            "repeat": 1
+          },
+          {
+            "tamil": "மண்ணகத்தில் அமைதி மனுசனுக்கு",
+            "english": "மண்ணகத்தில் அமைதி மனுசனுக்கு",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 1 (Verse 1)",
+        "lines": [
+          {
+            "tamil": "ஆட்டுக்குட்டிய தூக்கிக்கிட்டு",
+            "english": "ஆட்டுக்குட்டிய தூக்கிக்கிட்டு",
+            "repeat": 1
+          },
+          {
+            "tamil": "நெய்யும் பாலும்தான் எடுத்துக்கிட்டு",
+            "english": "நெய்யும் பாலும்thaaன் எடுத்துக்கிட்டு",
+            "repeat": 1
+          },
+          {
+            "tamil": "கட்டுச்சோறும் தான் கட்டிக்கிட்டு",
+            "english": "கட்டுச்சோறும் thaaன் கட்டிக்கிட்டு",
+            "repeat": 1
+          },
+          {
+            "tamil": "பெத்லஹேம் ஊருக்குப் போனாங்களே",
+            "english": "பெத்லஹேம் ஊருக்குப் போனாங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "கொட்டகையில் கிடந்த முன் கட்டிலில்",
+            "english": "கொட்டகையில் கிடந்த முன் கட்டிலில்",
+            "repeat": 1
+          },
+          {
+            "tamil": "இயேசு பாலகனை எட்டி பார்த்தாங்களே",
+            "english": "இயேசு பாலகனை எட்டி பார்த்thaaங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "விட்டுப் போன சொந்த பந்தமெல்லாம்",
+            "english": "விட்டுப் போன சொந்த பந்தமெல்லாம்",
+            "repeat": 1
+          },
+          {
+            "tamil": "சாமி வந்ததுன்னு தொட்டு கும்பிட்டாங்களே",
+            "english": "சாமி வந்ததுன்னு தொட்டு கும்பிட்டாங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "வாருங்க நீங்களும் வாருங்களே",
+            "english": "vaaருங்க neeங்களும் vaaருங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "வாழ்விக்கும் பாலனை பாருங்களே",
+            "english": "vaaழ்விக்கும் பாலனை பாருங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "கூடுங்க ஒன்றாகக் கூடுங்களே",
+            "english": "கூடுங்க ஒன்றாகக் கூடுங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "கும்பிட்டு கும்மாளம் போடுங்களே",
+            "english": "கும்பிட்டு கும்மாளம் போடுங்களே",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 2 (Verse 2)",
+        "lines": [
+          {
+            "tamil": "வானத்தில் விண்மீனைப் பார்த்துக்கிட்டு",
+            "english": "vaaனத்தில் விண்மீனைப் பார்த்துக்கிட்டு",
+            "repeat": 1
+          },
+          {
+            "tamil": "மெசியா பொறந்தத தெரிஞ்சிக்கிட்டு",
+            "english": "மெசியா பொறந்தத தெரிஞ்சிக்கிட்டு",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஞானிகள் மூணுபேர் சேர்ந்துக்கிட்டு",
+            "english": "ஞானிகள் மூணுபேர் சேர்ந்துக்கிட்டு",
+            "repeat": 1
+          },
+          {
+            "tamil": "விண்மீனு பின்னாடி போனாங்களே",
+            "english": "விண்மீனு பின்னாடி போனாங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஏழைகளின் சூழ எல்லாருக்கும்",
+            "english": "ஏழைகளின் சூழ எல்லாருக்கும்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஏழ்மையில் கிடப்பத பார்த்தாங்களே",
+            "english": "ஏழ்மையில் கிடப்பத பார்த்thaaங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "எடுத்து வந்த தங்கம் வைரம் தூபம் தந்து",
+            "english": "எடுத்து வந்த தங்கம் வைரம் தூபம் தந்து",
+            "repeat": 1
+          },
+          {
+            "tamil": "வேந்தனின் பொற்பாதம் பணிந்தாங்களே",
+            "english": "வேந்தனின் பொற்பாதம் பணிந்thaaங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "வாருங்க நீங்களும் வாருங்களே",
+            "english": "vaaருங்க neeங்களும் vaaருங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "வாழ்த்துகள் சொல்லியே பாடுங்களே",
+            "english": "vaaழ்த்துகள் சொல்லியே பாடுங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "பாருங்க உங்கள பாருங்களே",
+            "english": "பாருங்க உங்கள பாருங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "தந்தான தானன்னே பாடுங்களே",
+            "english": "தந்thaaன thaaனன்னே பாடுங்களே",
+            "repeat": 1
+          },
+          {
+            "tamil": "உன்னதத்தில் மகிமை தேவனுக்கே",
+            "english": "உன்னதத்தில் மகிமை தேவனுக்கே",
+            "repeat": 1
+          },
+          {
+            "tamil": "மண்ணகத்தில் அமைதி மாந்தருக்கு",
+            "english": "மண்ணகத்தில் அமைதி மாந்தருக்கு",
             "repeat": 1
           }
         ]
@@ -2660,7 +2381,175 @@
     ]
   },
   {
-    "id": 16,
+    "id": 14,
+    "titleTamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
+    "titleEnglish": "Poo Imaigal Moodi Kannurangum Baalan Yaar",
+    "category": "Lullaby / தாலாட்டு",
+    "preview": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார் - பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+    "sections": [
+      {
+        "type": "chorus",
+        "label": "பல்லவி (Chorus)",
+        "lines": [
+          {
+            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
+            "english": "Poo imaigal moodi kannurangum baalan yaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "repeat": 1
+          },
+          {
+            "tamil": "முன்னிடையில் உள்ள புல்லணை உன் மஞ்சமானதோ",
+            "english": "முன்னிடையில் உள்ள புல்லணை உன் மஞ்சமானதோ",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
+            "english": "Poo imaigal moodi kannurangum baalan yaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்தாரோ",
+            "english": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்thaaரோ",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 1 (Verse 1)",
+        "lines": [
+          {
+            "tamil": "வானத்தின் மகிமையை விடுத்து வந்தனையோ",
+            "english": "vaaனத்தின் மகிமையை விடுத்து வந்தனையோ",
+            "repeat": 1
+          },
+          {
+            "tamil": "வையத்தின் சுமைகளை ஏற்க வந்தனையோ (2)……….",
+            "english": "வையத்தின் சுமைகளை ஏற்க வந்தனையோ (2)……….",
+            "repeat": 1
+          },
+          {
+            "tamil": "தந்தையின் ஆசையோ ஆஹா தந்தையின் ஆசையோ",
+            "english": "thandhaiயின் ஆசையோ ஆஹா thandhaiயின் ஆசையோ",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
+            "english": "Poo imaigal moodi kannurangum baalan yaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்தாரோ",
+            "english": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்thaaரோ",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 2 (Verse 2)",
+        "lines": [
+          {
+            "tamil": "மாட்டுத் தொழுவத்தில் பிறந்த,,தும் ஏனோ",
+            "english": "மாட்டுத் தொழுவத்தில் பிறந்த,,தும் ஏனோ",
+            "repeat": 1
+          },
+          {
+            "tamil": "மாந்தர் குற்றங்களை மன்னித்ததும் ஏனோ",
+            "english": "மாந்தர் குற்றங்களை மன்னித்ததும் ஏனோ",
+            "repeat": 2
+          },
+          {
+            "tamil": "தந்தையின் ஆசையோ ஆஹா தந்தையின் ஆசையோ",
+            "english": "thandhaiயின் ஆசையோ ஆஹா thandhaiயின் ஆசையோ",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
+            "english": "Poo imaigal moodi kannurangum baalan yaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்தாரோ",
+            "english": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்thaaரோ",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 3 (Verse 3)",
+        "lines": [
+          {
+            "tamil": "வானுடை நட்சத்திரம் துலங்கியதேனோ",
+            "english": "vaaனுடை நட்சத்திரம் துலங்கியதேனோ",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஏரோது இராஜனும் கலங்கியதேனோ",
+            "english": "ஏரோது இராஜனும் கலங்கியதேனோ",
+            "repeat": 2
+          },
+          {
+            "tamil": "இராஜன் நீரன்றோ யூதராஜன் நீரன்றோ",
+            "english": "இராஜன் neeரன்றோ யூதராஜன் neeரன்றோ",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
+            "english": "Poo imaigal moodi kannurangum baalan yaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "repeat": 1
+          },
+          {
+            "tamil": "முன்னிடையில் உள்ள புல்லணை உன் மஞ்சமானதோ",
+            "english": "முன்னிடையில் உள்ள புல்லணை உன் மஞ்சமானதோ",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூ இமைகள் மூடி கண்ணுறங்கும் பாலன் யார்",
+            "english": "Poo imaigal moodi kannurangum baalan yaar",
+            "repeat": 1
+          },
+          {
+            "tamil": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "english": "பூவுலகை நாடி வந்திருக்கும் மைந்தனார்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்தாரோ",
+            "english": "ஆரிராரிராரிராரோ நம்மை இரட்சிக்க வந்thaaரோ",
+            "repeat": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
     "titleTamil": "பூந்தென்றலே கொஞ்சி பேசவா",
     "titleEnglish": "Poonthendrale Konji Pesavaa",
     "category": "Melody / மெல்லிசை",
@@ -2847,6 +2736,188 @@
     ]
   },
   {
+    "id": 16,
+    "titleTamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம்",
+    "titleEnglish": "Bethlehem Oorukku Sendriduvom",
+    "category": "Journey / பயணம்",
+    "preview": "பெத்லகேம் ஊருக்குச் செfன்றிடுவோம் - அந்த - பாலனைக் கண்டிடுவோம்",
+    "sections": [
+      {
+        "type": "chorus",
+        "label": "பல்லவி (Chorus)",
+        "lines": [
+          {
+            "tamil": "பெத்லகேம் ஊருக்குச் செfன்றிடுவோம் - அந்த",
+            "english": "பெத்லகேம் ஊருக்குச் செfன்றிடுவோம் - அந்த",
+            "repeat": 1
+          },
+          {
+            "tamil": "பாலனைக் கண்டிடுவோம்",
+            "english": "பாலனைக் கண்டிடுவோம்",
+            "repeat": 1
+          },
+          {
+            "tamil": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
+            "english": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
+            "english": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
+            "repeat": 1
+          },
+          {
+            "tamil": "பெத்லகேம் ஊருக்குச் செfன்றிடுவோம் - அந்த",
+            "english": "பெத்லகேம் ஊருக்குச் செfன்றிடுவோம் - அந்த",
+            "repeat": 1
+          },
+          {
+            "tamil": "பாலனைக் கண்டிடுவோம்",
+            "english": "பாலனைக் கண்டிடுவோம்",
+            "repeat": 1
+          },
+          {
+            "tamil": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
+            "english": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
+            "english": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
+            "repeat": 1
+          },
+          {
+            "tamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம் - அந்த",
+            "english": "Bethlehem oorukkuch sendriduvom - அந்த",
+            "repeat": 1
+          },
+          {
+            "tamil": "பாலனைக் கண்டிடுவோம்",
+            "english": "பாலனைக் கண்டிடுவோம்",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 1 (Verse 1)",
+        "lines": [
+          {
+            "tamil": "உண்மை ஒளியாய் உதித்ததே",
+            "english": "உண்மை ஒளியாய் உதித்ததே",
+            "repeat": 1
+          },
+          {
+            "tamil": "வேற்றுமை அகற்றப் பிறந்ததே",
+            "english": "வேற்றுமை அகற்றப் பிறந்ததே",
+            "repeat": 2
+          },
+          {
+            "tamil": "இறைமை வடிவைக் கொணர்ந்ததே",
+            "english": "இறைமை வடிவைக் கொணர்ந்ததே",
+            "repeat": 2
+          },
+          {
+            "tamil": "மாமரியின் நல்மகனாய் மனித உருவை எடுத்ததே",
+            "english": "மாமரியின் நல்மகனாய் மனித உருவை எடுத்ததே",
+            "repeat": 2
+          },
+          {
+            "tamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம் - அந்த",
+            "english": "Bethlehem oorukkuch sendriduvom - அந்த",
+            "repeat": 1
+          },
+          {
+            "tamil": "பாலனைக் கண்டிடுவோம்",
+            "english": "பாலனைக் கண்டிடுவோம்",
+            "repeat": 1
+          },
+          {
+            "tamil": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
+            "english": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
+            "english": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
+            "repeat": 1
+          },
+          {
+            "tamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம் - அந்த",
+            "english": "Bethlehem oorukkuch sendriduvom - அந்த",
+            "repeat": 1
+          },
+          {
+            "tamil": "பாலனைக் கண்டிடுவோம்",
+            "english": "பாலனைக் கண்டிடுவோம்",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 2 (Verse 2)",
+        "lines": [
+          {
+            "tamil": "இருண்ட உலகை மீட்கவே",
+            "english": "இருண்ட உலகை மீட்கவே",
+            "repeat": 1
+          },
+          {
+            "tamil": "மருண்ட மனதைத் தேற்றவே",
+            "english": "மருண்ட மனதைத் தேற்றவே",
+            "repeat": 2
+          },
+          {
+            "tamil": "உலகின் ஒளியாய் பிறந்தாரே",
+            "english": "உலகின் ஒளியாய் பிறந்thaaரே",
+            "repeat": 2
+          },
+          {
+            "tamil": "உள்ளமதைக் கொள்ளை கொள்ளும்",
+            "english": "உள்ளமதைக் கொள்ளை கொள்ளும்",
+            "repeat": 1
+          },
+          {
+            "tamil": "குழந்தை வடிவில் உதித்தாரே",
+            "english": "குழந்தை வடிவில் உதித்thaaரே",
+            "repeat": 2
+          },
+          {
+            "tamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம் - அந்த",
+            "english": "Bethlehem oorukkuch sendriduvom - அந்த",
+            "repeat": 1
+          },
+          {
+            "tamil": "பாலனைக் கண்டிடுவோம்",
+            "english": "பாலனைக் கண்டிடுவோம்",
+            "repeat": 1
+          },
+          {
+            "tamil": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
+            "english": "பேரின்பம் அனைத்தும் குழந்தை வடிவில்",
+            "repeat": 1
+          },
+          {
+            "tamil": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
+            "english": "ஒளிரும் காட்சியைக் கண்டிடுவோம்",
+            "repeat": 2
+          },
+          {
+            "tamil": "பெத்லகேம் ஊருக்குச் சென்றிடுவோம் - அந்த",
+            "english": "Bethlehem oorukkuch sendriduvom - அந்த",
+            "repeat": 1
+          },
+          {
+            "tamil": "பாலனைக் கண்டிடுவோம்",
+            "english": "பாலனைக் கண்டிடுவோம்",
+            "repeat": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 17,
     "titleTamil": "மார்கழி குளிரில் மன்னவன் பிறந்தார்",
     "titleEnglish": "Margazhi Kuliril Mannavan Piranthaar",
@@ -3005,6 +3076,128 @@
   },
   {
     "id": 18,
+    "titleTamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
+    "titleEnglish": "Immanuela Immanuela Maadhayaavara Varuga",
+    "category": "Advent / வருகை",
+    "preview": "மானுவேலா மானுவேலா மாதயாவர வருக - மானுவேலா மானுவேலா மாதயாவர வருக",
+    "sections": [
+      {
+        "type": "chorus",
+        "label": "பல்லவி (Chorus)",
+        "lines": [
+          {
+            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
+            "english": "Immanuela Immanuela maadhayaavara varuga",
+            "repeat": 1
+          },
+          {
+            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
+            "english": "Immanuela Immanuela maadhayaavara varuga",
+            "repeat": 1
+          },
+          {
+            "tamil": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
+            "english": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
+            "english": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
+            "english": "Immanuela Immanuela maadhayaavara varuga",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 1 (Verse 1)",
+        "lines": [
+          {
+            "tamil": "பாவ இருளை அகற்றும் புதியொலியே வருக",
+            "english": "பாவ இருளை அகற்றும் புதியொலியே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "பாவ இருளை அகற்றும் புதியொலியே வருக",
+            "english": "பாவ இருளை அகற்றும் புதியொலியே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "விடிவெள்ளியே விடிவெள்ளியே  கனிவுடனே வருக",
+            "english": "விடிவெள்ளியே விடிவெள்ளியே  கனிவுடனே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "விடிவெள்ளியே விடிவெள்ளியே  கனிவுடனே வருக",
+            "english": "விடிவெள்ளியே விடிவெள்ளியே  கனிவுடனே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
+            "english": "Immanuela Immanuela maadhayaavara varuga",
+            "repeat": 1
+          }
+        ]
+      },
+      {
+        "type": "verse",
+        "label": "சரணம் 2 (Verse 2)",
+        "lines": [
+          {
+            "tamil": "வானக வழி திறக்க வல்லவனே வருக",
+            "english": "vaaனக வழி திறக்க வல்லவனே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "வானக வழி திறக்க வல்லவனே வருக",
+            "english": "vaaனக வழி திறக்க வல்லவனே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "அருட்புனலே அருட்புனலே அன்புடனே வருக",
+            "english": "அருட்புனலே அருட்புனலே அன்புடனே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "அருட்புனலே அருட்புனலே  அன்புடனே வருக",
+            "english": "அருட்புனலே அருட்புனலே  அன்புடனே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
+            "english": "Immanuela Immanuela maadhayaavara varuga",
+            "repeat": 1
+          },
+          {
+            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
+            "english": "Immanuela Immanuela maadhayaavara varuga",
+            "repeat": 1
+          },
+          {
+            "tamil": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
+            "english": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
+            "english": "மன்னவதோரைக் மீட்க மன்னவனே வருக",
+            "repeat": 1
+          },
+          {
+            "tamil": "மானுவேலா மானுவேலா மாதயாவர வருக",
+            "english": "Immanuela Immanuela maadhayaavara varuga",
+            "repeat": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
     "titleTamil": "விண்ணின் வேந்தன் மண்ணில் பிறந்தார்",
     "titleEnglish": "Vinnin Vendhan Mannil Piranthaar",
     "category": "Glory / மகிமை",
@@ -3115,241 +3308,54 @@
     ]
   },
   {
-    "id": 19,
-    "titleTamil": "ஒடுக்கப்பட்ட மக்களுக்கு உரிமை வாழ்வு",
-    "titleEnglish": "Odukkappatta Makkalukku Urimai Vaazhvu",
-    "category": "Liberation / வாழ்வு",
-    "preview": "ஒடுக்கப்பட்ட மக்களுக்கு உரிம வாழ்வு - கொடுக்க நம்ம இயேசு சாமி பொறந்துட்டாரு",
-    "sections": [
-      {
-        "type": "chorus",
-        "label": "பல்லவி (Chorus)",
-        "lines": [
-          {
-            "tamil": "ஒடுக்கப்பட்ட மக்களுக்கு உரிம வாழ்வு",
-            "english": "ஒடுக்கப்பட்ட மக்களுக்கு உரிம vaaழ்வு",
-            "repeat": 1
-          },
-          {
-            "tamil": "கொடுக்க நம்ம இயேசு சாமி பொறந்துட்டாரு",
-            "english": "கொடுக்க நம்ம இயேசு சாமி பொறந்துட்டாரு",
-            "repeat": 1
-          },
-          {
-            "tamil": "படைக்கப்பட்ட எல்லாருக்கும் பரலோகம்",
-            "english": "படைக்கப்பட்ட எல்லாருக்கும் பரலோகம்",
-            "repeat": 1
-          },
-          {
-            "tamil": "கெடைக்க நம்ம இயேசு சாமி பொறந்துட்டாரு",
-            "english": "கெடைக்க நம்ம இயேசு சாமி பொறந்துட்டாரு",
-            "repeat": 1
-          },
-          {
-            "tamil": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் ⁰0⁰0 கொட்டுங்கடா",
-            "english": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் ⁰0⁰0 கொட்டுங்கடா",
-            "repeat": 1
-          },
-          {
-            "tamil": "தட்டுங்க தட்டுங்க தட்டுங்கடா தாளம் தட்டுங்கடா",
-            "english": "தட்டுங்க தட்டுங்க தட்டுங்கடா thaaளம் தட்டுங்கடா",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 1 (Verse 1)",
-        "lines": [
-          {
-            "tamil": "அடிம யாரும் இல்ல அரசன் யாரும் இல்ல",
-            "english": "அடிம யாரும் இல்ல அரசன் யாரும் இல்ல",
-            "repeat": 1
-          },
-          {
-            "tamil": "அனைவரும் சம மனுஷருன்னு சொல்ல வந்தாரு",
-            "english": "அனைவரும் சம மனுஷருன்னு சொல்ல வந்thaaரு",
-            "repeat": 1
-          },
-          {
-            "tamil": "ஆணும் இங்க இல்ல பெண்ணும் இங்கு இல்ல",
-            "english": "ஆணும் இங்க இல்ல பெண்ணும் இங்கு இல்ல",
-            "repeat": 1
-          },
-          {
-            "tamil": "அனைவரும் அவர் பிள்ளைங்கன்னு சொல்ல வந்தாரு",
-            "english": "அனைவரும் அவர் பிள்ளைங்கன்னு சொல்ல வந்thaaரு",
-            "repeat": 1
-          },
-          {
-            "tamil": "உயர்ந்தவனும் இல்ல தாழ்ந்தவனும் இல்ல",
-            "english": "உயர்ந்தவனும் இல்ல thaaழ்ந்தவனும் இல்ல",
-            "repeat": 1
-          },
-          {
-            "tamil": "உருப்படாத வித்தியாசத்த ஒழிக்க வந்தாரு",
-            "english": "உருப்படாத வித்தியாசத்த ஒழிக்க வந்thaaரு",
-            "repeat": 1
-          },
-          {
-            "tamil": "பெரியவனும் இல்ல சின்னவனும் இல்ல",
-            "english": "பெரியவனும் இல்ல சின்னவனும் இல்ல",
-            "repeat": 1
-          },
-          {
-            "tamil": "நல்லவனா எல்லாரையும் மாத்த வந்தாரு",
-            "english": "நல்லவனா எல்லாரையும் மாத்த வந்thaaரு",
-            "repeat": 1
-          },
-          {
-            "tamil": "இனி தாழ்ந்தவங்க உயர்ந்தவங்க ஆகும் காலமிது",
-            "english": "இனி thaaழ்ந்தவங்க உயர்ந்தவங்க ஆகும் காலமிது",
-            "repeat": 1
-          },
-          {
-            "tamil": "இனி சின்னவங்க பெரியவங்க ஆகும் வேளையிது",
-            "english": "இனி சின்னவங்க பெரியவங்க ஆகும் வேளையிது",
-            "repeat": 1
-          },
-          {
-            "tamil": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் கொட்டுங்கடா",
-            "english": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் கொட்டுங்கடா",
-            "repeat": 1
-          },
-          {
-            "tamil": "தட்டுங்க தட்டுங்க தட்டுங்கடா தாளம் தட்டுங்கடா",
-            "english": "தட்டுங்க தட்டுங்க தட்டுங்கடா thaaளம் தட்டுங்கடா",
-            "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "verse",
-        "label": "சரணம் 2 (Verse 2)",
-        "lines": [
-          {
-            "tamil": "ஏழ யாரும் இல்ல பணக்காரன் யாரும் இல்ல",
-            "english": "ஏழ யாரும் இல்ல பணக்காரன் யாரும் இல்ல",
-            "repeat": 1
-          },
-          {
-            "tamil": "எல்லாரும் அவர் ஆட்சியில ஒண்ணு இன்னாரு",
-            "english": "எல்லாரும் அவர் ஆட்சியில ஒண்ணு இன்னாரு",
-            "repeat": 1
-          },
-          {
-            "tamil": "மேத யாரும் இல்ல பேத யாரும் இல்ல",
-            "english": "மேத யாரும் இல்ல பேத யாரும் இல்ல",
-            "repeat": 1
-          },
-          {
-            "tamil": "தேவஞானம் எல்லாருக்கும் தேவையின்னாரு",
-            "english": "தேவஞானம் எல்லாருக்கும் தேவையின்னாரு",
-            "repeat": 1
-          },
-          {
-            "tamil": "பாவி யாரும் இல்ல புனிதன் யாரும் இல்ல",
-            "english": "பாவி யாரும் இல்ல புனிதன் யாரும் இல்ல",
-            "repeat": 1
-          },
-          {
-            "tamil": ". போக்கி பாவம் போக்க வந்தாரு",
-            "english": ". போக்கி பாவம் போக்க வந்thaaரு",
-            "repeat": 1
-          },
-          {
-            "tamil": "தலைவன் யாரும் இல்ல தொண்டன் யாரும் இல்ல",
-            "english": "தலைவன் யாரும் இல்ல தொண்டன் யாரும் இல்ல",
-            "repeat": 1
-          },
-          {
-            "tamil": "தலக்கனத்த தகர்க்கும்படி செய்யச் சொன்னாரு",
-            "english": "தலக்கனத்த தகர்க்கும்படி செய்யச் சொன்னாரு",
-            "repeat": 1
-          },
-          {
-            "tamil": "இனி ஏழைகளும் செல்வராகும் நல்ல காலமிது",
-            "english": "இனி ஏழைகளும் செல்வராகும் நல்ல காலமிது",
-            "repeat": 1
-          },
-          {
-            "tamil": "இனி பாவிகளும் புனிதராகும் நல்ல வேளையிது",
-            "english": "இனி பாவிகளும் புனிதராகும் நல்ல வேளையிது",
-            "repeat": 1
-          },
-          {
-            "tamil": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் கொட்டுங்கடா",
-            "english": "கொட்டுங்க கொட்டுங்க கொட்டுங்கடா மேளம் கொட்டுங்கடா",
-            "repeat": 1
-          },
-          {
-            "tamil": "தட்டுங்க தட்டுங்க தட்டுங்கடா தாளம் தட்டுங்கடா",
-            "english": "தட்டுங்க தட்டுங்க தட்டுங்கடா thaaளம் தட்டுங்கடா",
-            "repeat": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": 20,
-    "titleTamil": "ஆசையொரு ஆசை",
-    "titleEnglish": "Aasaiyoru Aasai",
+    "titleTamil": "ஹே ஹே... ஹேப்பி கிறிஸ்மஸ்",
+    "titleEnglish": "Hey Hey Happy Christmas",
     "category": "Joy / மகிழ்ச்சி",
-    "preview": "ஆசையொரு ஆசை அள்ளி கொஞ்ச ஆசை பாலன் இயேசு அவரை...",
+    "preview": "ஹே ஹே... ஹேப்பி கிறிஸ்மஸ் ஹேப்பி கிறிஸ்மஸ் - கொண்டாடுவோம் வாங்க...",
     "sections": [
       {
         "type": "chorus",
         "label": "பல்லவி (Chorus)",
         "lines": [
           {
-            "tamil": "ஆசையொரு ஆசை அள்ளி கொஞ்ச ஆசை",
-            "english": "Aasaiyoru aasai alli konja aasai",
-            "repeat": 2
-          },
-          {
-            "tamil": "பாலன் இயேசு அவரை அள்ளி கொஞ்ச ஆசை",
-            "english": "Baalan Yesu avarai alli konja aasai",
-            "repeat": 2
-          },
-          {
-            "tamil": "அன்னை மரி அன்பின் மடி குழந்தை இயேசு சிரிக்கின்றார்",
-            "english": "Annai Mari anbin madi kuzhandhai Yesu sirikkindraar",
+            "tamil": "ஹே ஹே... ஹேப்பி கிறிஸ்மஸ் ஹேப்பி கிறிஸ்மஸ்",
+            "english": "Hey hey... Happy Christmas Happy Christmas",
             "repeat": 1
           },
           {
-            "tamil": "பூமியிலே தேவ ஒளி புதுமைகளால் நிறைக்கிறார்",
-            "english": "Bhoomiyile Deva oli pudhumaigalaal niraikkiraar",
+            "tamil": "கொண்டாடுவோம் வாங்க...",
+            "english": "கொண்டாடுவோம் vaaங்க...",
             "repeat": 1
           },
           {
-            "tamil": "பட்டு விரல் பத்து விரல் அற்புதங்கள் நிகழ்த்துவார்",
-            "english": "Pattu viral patthu viral arpudhangal nigazhthuvaar",
+            "tamil": "மெர்ரி கிறிஸ்மஸ் மெர்ரி கிறிஸ்மஸ்",
+            "english": "மெர்ரி கிறிஸ்மஸ் மெர்ரி கிறிஸ்மஸ்",
             "repeat": 1
           },
           {
-            "tamil": "மொட்டு விழி பார்வையிலே பாவங்களை துரத்துவார்",
-            "english": "Mottu vizhi paarvaiyile paavangalai thuraththuvaar",
+            "tamil": "கொண்டாடுவோம் வாங்க...",
+            "english": "கொண்டாடுவோம் vaaங்க...",
             "repeat": 1
           },
           {
-            "tamil": "Happy Happy Happy Christmas to you all",
-            "english": "Happy Happy Happy Christmas to you all",
+            "tamil": "ஆஹா எல்லோருக்கும் செய்தி",
+            "english": "ஆஹா எல்லோருக்கும் செய்தி",
             "repeat": 1
           },
           {
-            "tamil": "Merry Merry Merry Christmas I love you all",
-            "english": "Merry Merry Merry Christmas I love you all",
+            "tamil": "நம் பாலன் பிறந்த செய்தி",
+            "english": "நம் பாலன் பிறந்த செய்தி",
             "repeat": 1
           },
           {
-            "tamil": "குழந்தை இயேசுவை வாழ்த்தி பாடுங்கள்",
-            "english": "Kuzhandhai Yesuvai vaazhththi paadungal",
+            "tamil": "இத கொண்டாடுவோம் வாங்க",
+            "english": "இத கொண்டாடுவோம் vaaங்க",
             "repeat": 1
           },
           {
-            "tamil": "மழலை இயேசுவை மகிழ்ந்து பாடுங்கள்",
-            "english": "Mazhalai Yesuvai magizhndhu paadungal",
+            "tamil": "இனி பண் பாடலாம் நீங்க",
+            "english": "இனி பண் பாடலாம் neeங்க",
             "repeat": 1
           }
         ]
@@ -3359,54 +3365,44 @@
         "label": "சரணம் 1 (Verse 1)",
         "lines": [
           {
-            "tamil": "இறையின் குலமே எழுந்து வா வா",
-            "english": "Iraiyin kulame ezhundhu vaa vaa",
+            "tamil": "பாலன் இயேசு பிறந்துவிட்டார் மாட்டு தொழுவிலே",
+            "english": "பாலன் இயேசு பிறந்துவிட்டார் மாட்டு தொழுவிலே",
             "repeat": 1
           },
           {
-            "tamil": "நமது இறைவன் பிறந்தார் ஓடிவா வா",
-            "english": "Namadhu Iraivan pirandhaar odivaa vaa",
+            "tamil": "பாவிகளை மீட்க்க வந்தார் ஏழை வடிவிலே",
+            "english": "பாவிகளை மீட்க்க வந்thaaர் ஏழை வடிவிலே",
             "repeat": 1
           },
           {
-            "tamil": "இன்று ஆடி பாடி ஆட்டம் போடு",
-            "english": "Indru aadi paadi aattam podu",
+            "tamil": "பாவ இருள் போக்க வந்த தேவ மைந்தனே",
+            "english": "பாவ இருள் போக்க வந்த தேவ மைந்தனே",
             "repeat": 1
           },
           {
-            "tamil": "அவரின் வருகை நாளை துதித்து பாடு",
-            "english": "Avarin varugai naalai thudhiththu paadu",
+            "tamil": "பாமரனாய் மண்ணில் வந்தார் அன்னை மடியிலே",
+            "english": "பாமரனாய் மண்ணில் வந்thaaர் அன்னை மடியிலே",
             "repeat": 1
           },
           {
-            "tamil": "உலகின் ஒளியானவர் நமது வழியானவர்",
-            "english": "Ulagin oliyaanavar namadhu vazhiyaanavar",
+            "tamil": "சந்தோசமா ஆடு... சங்கீதத்த பாடு...",
+            "english": "சந்தோசமா ஆடு... சங்கீதத்த பாடு...",
             "repeat": 1
           },
           {
-            "tamil": "மரியின் மகனாக பிறந்தாரே அல்லேலூயா",
-            "english": "Mariyin maganaaga pirandhaare Hallelujah",
+            "tamil": "ஆனந்தமா கூடு... பாலன் இயேசுவை நீ தேடு...",
+            "english": "ஆனந்தமா கூடு... பாலன் Yesuவை நீ தேடு...",
             "repeat": 1
           },
           {
-            "tamil": "கொடிய பாவங்களை கொள்ளை வியாதிகளை",
-            "english": "Kodiya paavangalai kollai viyaadhigalai",
+            "tamil": "பாட்டுப் பாடி ஆட்டம் ஆடி புதுப் பாட்டு பாடு",
+            "english": "பாட்டுப் பாடி ஆட்டம் ஆடி புதுப் பாட்டு பாடு",
             "repeat": 1
           },
           {
-            "tamil": "துரத்தி அடித்திட பிறந்தாரே அல்லேலூயா",
-            "english": "Thuraththi adiththida pirandhaare Hallelujah",
+            "tamil": "பாலன் இயேசு பிறந்ததாலே நீ சந்தோஷமா ஆடு",
+            "english": "பாலன் இயேசு பிறந்ததாலே நீ சந்தோஷமா ஆடு",
             "repeat": 1
-          },
-          {
-            "tamil": "ஒன்றாய் கூடிடுவோம் உள்ளம் மகிழ்ந்திடுவோம்",
-            "english": "Ondraai koodiduvom ullam magizhndhiduvom",
-            "repeat": 2
-          },
-          {
-            "tamil": "நன்றாய் பாடிடுவோம் நன்றி சொல்லிடுவோம்",
-            "english": "Nandraai paadiduvom nandri solliduvom",
-            "repeat": 2
           }
         ]
       },
@@ -3415,79 +3411,83 @@
         "label": "சரணம் 2 (Verse 2)",
         "lines": [
           {
-            "tamil": "கிறிஸ்துமஸ் தாத்தா நானும் வந்தேன்",
-            "english": "Christmas Thaaththaa naanum vandhen",
+            "tamil": "வான தூதர் வாழ்த்து செய்தி சொல்லி சென்றனர்",
+            "english": "vaaன தூதர் vaaழ்த்து செய்தி சொல்லி சென்றனர்",
             "repeat": 1
           },
           {
-            "tamil": "பரிசு நிறைய நெறய கொண்டு வந்தேன்",
-            "english": "Parisu niraiya neraiya kondu vandhen",
+            "tamil": "இடையர்களும் செய்தி கேட்டு மகிழ்ந்து நின்றனர்",
+            "english": "இடையர்களும் செய்தி கேட்டு மகிழ்ந்து நின்றனர்",
             "repeat": 1
           },
           {
-            "tamil": "வாங்க உங்க பரிசை வாங்கி போங்க",
-            "english": "Vaanga unga parisai vaangi ponga",
+            "tamil": "ஞானிகள் மூவரும் பார்க்க வந்தனர்",
+            "english": "ஞானிகள் மூவரும் பார்க்க வந்தனர்",
             "repeat": 1
           },
           {
-            "tamil": "நமது பாலன் பிறப்பே பரிசு தாங்க",
-            "english": "Namadhu Baalan pirappe parisu thaanga",
+            "tamil": "பொன் வெள்ளி போலம் வைத்து வணங்கி மகிழ்ந்தனர்",
+            "english": "பொன் வெள்ளி போலம் வைத்து வணங்கி மகிழ்ந்தனர்",
             "repeat": 1
           },
           {
-            "tamil": "அன்பை அள்ளித் தருவார் கண்ணின் மணியாய் காப்பார்",
-            "english": "Anbai alliththaruvaar kannin maniyaai kaappaar",
+            "tamil": "நட்சத்திரம் பாரு... விடியலை நீ தேடு...",
+            "english": "நட்சத்திரம் பாரு... விடியலை நீ தேடு...",
             "repeat": 1
           },
           {
-            "tamil": "நமது பாவங்கள் நீக்கியே ஆசீர்வதிப்பார்",
-            "english": "Namadhu paavangal neekkiye aaseervadhippaar",
+            "tamil": "மணியோசை கேளு... குழந்தை இயேசுவை நீ பாரு...",
+            "english": "மணியோசை கேளு... குழந்தை Yesuவை நீ பாரு...",
             "repeat": 1
           },
           {
-            "tamil": "ஜீவ நதியானவர் ஆன்ம ஒளியானவர்",
-            "english": "Jeeva nadhiyaanavar aanma oliyaanavar",
+            "tamil": "பாட்டுப் பாடி ஆட்டம் ஆடி புதுப் பாட்டு பாடு",
+            "english": "பாட்டுப் பாடி ஆட்டம் ஆடி புதுப் பாட்டு பாடு",
             "repeat": 1
           },
           {
-            "tamil": "மோட்ச உலகத்தில் நம் வீட்டை கட்டி வைப்பார்",
-            "english": "Motcha ulagaththil nam veettai katti vaippaar",
+            "tamil": "பாலன் இயேசு பிறந்ததாலே நீ சந்தோஷமா ஆடு",
+            "english": "பாலன் இயேசு பிறந்ததாலே நீ சந்தோஷமா ஆடு",
             "repeat": 1
           },
           {
-            "tamil": "அல்லே அல்லேலூயா அன்பின் ஆனவரே",
-            "english": "Alle Hallelujah anbin aanavare",
+            "tamil": "ஹே ஹே... ஹேப்பி கிறிஸ்மஸ் ஹேப்பி கிறிஸ்மஸ்",
+            "english": "Hey hey... Happy Christmas Happy Christmas",
             "repeat": 1
           },
           {
-            "tamil": "அல்லே அல்லேலூயா தூய அற்புதரே",
-            "english": "Alle Hallelujah thooya arpudhare",
+            "tamil": "கொண்டாடுவோம் வாங்க...",
+            "english": "கொண்டாடுவோம் vaaங்க...",
             "repeat": 1
           },
           {
-            "tamil": "அல்லே அல்லேலூயா சொல்லி கை தட்டுவோம்",
-            "english": "Alle Hallelujah solli kai thattuvom",
+            "tamil": "மெர்ரி கிறிஸ்மஸ் மெர்ரி கிறிஸ்மஸ்",
+            "english": "மெர்ரி கிறிஸ்மஸ் மெர்ரி கிறிஸ்மஸ்",
             "repeat": 1
           },
           {
-            "tamil": "அல்லே அல்லேலூயா கூடி ஆடிடுவோம்",
-            "english": "Alle Hallelujah koodi aadiduvom",
+            "tamil": "கொண்டாடுவோம் வாங்க...",
+            "english": "கொண்டாடுவோம் vaaங்க...",
             "repeat": 1
-          }
-        ]
-      },
-      {
-        "type": "chorus",
-        "label": "முடிவு (Outro)",
-        "lines": [
-          {
-            "tamil": "Happy Happy Happy Christmas to you all",
-            "english": "Happy Happy Happy Christmas to you all",
-            "repeat": 2
           },
           {
-            "tamil": "Merry Merry Merry Christmas I love you all",
-            "english": "Merry Merry Merry Christmas I love you all",
+            "tamil": "ஆஹா எல்லோருக்கும் செய்தி",
+            "english": "ஆஹா எல்லோருக்கும் செய்தி",
+            "repeat": 1
+          },
+          {
+            "tamil": "நம் பாலன் பிறந்த செய்தி",
+            "english": "நம் பாலன் பிறந்த செய்தி",
+            "repeat": 1
+          },
+          {
+            "tamil": "இத கொண்டாடுவோம் வாங்க",
+            "english": "இத கொண்டாடுவோம் vaaங்க",
+            "repeat": 1
+          },
+          {
+            "tamil": "இனி பண் பாடலாம் நீங்க",
+            "english": "இனி பண் பாடலாம் neeங்க",
             "repeat": 2
           }
         ]
